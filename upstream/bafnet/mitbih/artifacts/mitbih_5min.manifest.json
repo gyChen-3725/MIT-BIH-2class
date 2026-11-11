@@ -1,0 +1,148 @@
+{
+  "dataset": "MIT-BIH PSG master V3",
+  "source_master": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\mitbih_master\\mitbih_master_30s.npz",
+  "source_subject_split": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\mitbih_master\\splits\\split_dev_subjectwise.json",
+  "test_subjects": [
+    "P14",
+    "P16",
+    "P61"
+  ],
+  "train_pool_subjects": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P32",
+    "P37",
+    "P41",
+    "P45",
+    "P48",
+    "P59",
+    "P60",
+    "P66",
+    "P67"
+  ],
+  "shape": [
+    9966,
+    900,
+    2
+  ],
+  "train_pool_rows": 7868,
+  "test_rows": 2098,
+  "class_counts": {
+    "normal": 6676,
+    "apnea": 3290
+  },
+  "per_record_skips": {
+    "slp01a": {
+      "candidate": 230,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp01b": {
+      "candidate": 350,
+      "peak_count": 0,
+      "heart_rate": 1,
+      "interpolation": 0
+    },
+    "slp02a": {
+      "candidate": 350,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp02b": {
+      "candidate": 260,
+      "peak_count": 0,
+      "heart_rate": 1,
+      "interpolation": 0
+    },
+    "slp03": {
+      "candidate": 710,
+      "peak_count": 5,
+      "heart_rate": 19,
+      "interpolation": 0
+    },
+    "slp04": {
+      "candidate": 710,
+      "peak_count": 0,
+      "heart_rate": 2,
+      "interpolation": 0
+    },
+    "slp14": {
+      "candidate": 704,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp16": {
+      "candidate": 684,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp32": {
+      "candidate": 630,
+      "peak_count": 0,
+      "heart_rate": 10,
+      "interpolation": 0
+    },
+    "slp37": {
+      "candidate": 688,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp41": {
+      "candidate": 770,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp45": {
+      "candidate": 750,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp48": {
+      "candidate": 750,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp59": {
+      "candidate": 448,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp60": {
+      "candidate": 700,
+      "peak_count": 8,
+      "heart_rate": 5,
+      "interpolation": 0
+    },
+    "slp61": {
+      "candidate": 710,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp66": {
+      "candidate": 429,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "slp67x": {
+      "candidate": 144,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    }
+  },
+  "label_rule": "Normal=0; H/HA/OA/X/CA/CAA=1; label from center 30-second epoch",
+  "window_rule": "300 seconds centered on target 30-second epoch, within one recording"
+}

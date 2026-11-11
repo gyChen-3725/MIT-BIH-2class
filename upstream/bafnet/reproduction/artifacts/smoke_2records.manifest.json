@@ -1,0 +1,35 @@
+{
+  "source_master": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\apnea_ecg_master",
+  "source_answers": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\upstream\\bafnet\\source\\dataset\\event-2-answers",
+  "source_commit": "ac6ea317319f9fd9bbe17f4a45e0e184e748ce2b",
+  "shape": [
+    992,
+    900,
+    2
+  ],
+  "train_rows": 485,
+  "test_rows": 507,
+  "class_counts": {
+    "normal": 150,
+    "apnea": 842
+  },
+  "records": [
+    "a01",
+    "x01"
+  ],
+  "per_record_skips": {
+    "a01": {
+      "candidate": 485,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x01": {
+      "candidate": 518,
+      "peak_count": 2,
+      "heart_rate": 9,
+      "interpolation": 0
+    }
+  },
+  "note": "5-minute ECG is reconstructed by concatenating master 60-second raw epochs"
+}

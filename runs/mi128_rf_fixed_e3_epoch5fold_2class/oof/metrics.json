@@ -1,0 +1,31 @@
+{
+  "n": 10197,
+  "accuracy": 0.8321074825929194,
+  "balanced_accuracy": 0.7945425322608393,
+  "precision": 0.7757452574525745,
+  "sensitivity": 0.6856287425149701,
+  "specificity": 0.9034563220067084,
+  "f1": 0.7279084551811824,
+  "macro_f1": 0.8032536177480156,
+  "mcc": 0.6095943716986802,
+  "roc_auc": 0.9040931553838508,
+  "average_precision": 0.8220549727943633,
+  "confusion_matrix": [
+    [
+      6195,
+      662
+    ],
+    [
+      1050,
+      2290
+    ]
+  ],
+  "experiment": "mi128_rf_fixed_e3_epoch5fold_2class",
+  "folds": 5,
+  "split_unit": "epoch",
+  "feature_group": "fusion3_expanded",
+  "selector": "mutual_info",
+  "dimension": 128,
+  "model": "random_forest",
+  "elapsed_seconds": 17.68594519999897
+}

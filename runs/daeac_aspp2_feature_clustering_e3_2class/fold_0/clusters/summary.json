@@ -1,0 +1,377 @@
+{
+  "config": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\configs\\daeac_aspp2_feature_clustering_e3.yaml",
+  "data": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\mitbih_master\\mitbih_master_30s.npz",
+  "split": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\protocols\\e3_full_epoch5fold_20260913\\fold_0.json",
+  "split_sha256": "9c751cb2d19103b968e322d359b89139e34d9ba39691f3aa99522d8ce5631792",
+  "train_aux_sha256": "a8844c10a4e24bfa4408f384f643f12e8b47565343d861a16e8dc3b0ff6218e7",
+  "fold": 0,
+  "split_unit": "epoch",
+  "train_n": 6117,
+  "n_clusters": 5,
+  "n_init": 10,
+  "seed": 42,
+  "sklearn_version": "1.9.0",
+  "preprocessing": "RRI clip [0,3] seconds; amplitude asinh; train-only channel scaling",
+  "scaler": {
+    "mean": [
+      0.8545145392417908,
+      1.8455662727355957
+    ],
+    "std": [
+      0.1587095558643341,
+      1.4885550737380981
+    ]
+  },
+  "combinations": {
+    "rri": {
+      "input_shape": [
+        6117,
+        256
+      ],
+      "inertia": 772957.5625,
+      "clusters": [
+        {
+          "cluster": 0,
+          "n": 1926,
+          "normal": 1384,
+          "apnea": 542,
+          "apnea_fraction": 0.2814122533748702,
+          "subject_count": 16,
+          "top_subjects": [
+            [
+              "P60",
+              221
+            ],
+            [
+              "P04",
+              212
+            ],
+            [
+              "P45",
+              212
+            ]
+          ]
+        },
+        {
+          "cluster": 1,
+          "n": 2191,
+          "normal": 1434,
+          "apnea": 757,
+          "apnea_fraction": 0.3455043359196714,
+          "subject_count": 16,
+          "top_subjects": [
+            [
+              "P32",
+              221
+            ],
+            [
+              "P61",
+              206
+            ],
+            [
+              "P45",
+              191
+            ]
+          ]
+        },
+        {
+          "cluster": 2,
+          "n": 1025,
+          "normal": 613,
+          "apnea": 412,
+          "apnea_fraction": 0.40195121951219515,
+          "subject_count": 16,
+          "top_subjects": [
+            [
+              "P37",
+              346
+            ],
+            [
+              "P02",
+              268
+            ],
+            [
+              "P16",
+              107
+            ]
+          ]
+        },
+        {
+          "cluster": 3,
+          "n": 969,
+          "normal": 676,
+          "apnea": 293,
+          "apnea_fraction": 0.3023735810113519,
+          "subject_count": 16,
+          "top_subjects": [
+            [
+              "P14",
+              207
+            ],
+            [
+              "P48",
+              187
+            ],
+            [
+              "P01",
+              147
+            ]
+          ]
+        },
+        {
+          "cluster": 4,
+          "n": 6,
+          "normal": 6,
+          "apnea": 0,
+          "apnea_fraction": 0.0,
+          "subject_count": 2,
+          "top_subjects": [
+            [
+              "P03",
+              5
+            ],
+            [
+              "P37",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    "amplitude": {
+      "input_shape": [
+        6117,
+        256
+      ],
+      "inertia": 304979.5625,
+      "clusters": [
+        {
+          "cluster": 0,
+          "n": 585,
+          "normal": 326,
+          "apnea": 259,
+          "apnea_fraction": 0.4427350427350427,
+          "subject_count": 4,
+          "top_subjects": [
+            [
+              "P04",
+              406
+            ],
+            [
+              "P48",
+              120
+            ],
+            [
+              "P02",
+              57
+            ]
+          ]
+        },
+        {
+          "cluster": 1,
+          "n": 1461,
+          "normal": 1037,
+          "apnea": 424,
+          "apnea_fraction": 0.29021218343600275,
+          "subject_count": 13,
+          "top_subjects": [
+            [
+              "P37",
+              293
+            ],
+            [
+              "P03",
+              206
+            ],
+            [
+              "P16",
+              204
+            ]
+          ]
+        },
+        {
+          "cluster": 2,
+          "n": 325,
+          "normal": 243,
+          "apnea": 82,
+          "apnea_fraction": 0.2523076923076923,
+          "subject_count": 11,
+          "top_subjects": [
+            [
+              "P48",
+              170
+            ],
+            [
+              "P02",
+              80
+            ],
+            [
+              "P03",
+              16
+            ]
+          ]
+        },
+        {
+          "cluster": 3,
+          "n": 227,
+          "normal": 170,
+          "apnea": 57,
+          "apnea_fraction": 0.2511013215859031,
+          "subject_count": 6,
+          "top_subjects": [
+            [
+              "P02",
+              105
+            ],
+            [
+              "P48",
+              85
+            ],
+            [
+              "P04",
+              20
+            ]
+          ]
+        },
+        {
+          "cluster": 4,
+          "n": 3519,
+          "normal": 2337,
+          "apnea": 1182,
+          "apnea_fraction": 0.3358908780903666,
+          "subject_count": 15,
+          "top_subjects": [
+            [
+              "P61",
+              435
+            ],
+            [
+              "P60",
+              412
+            ],
+            [
+              "P14",
+              340
+            ]
+          ]
+        }
+      ]
+    },
+    "both": {
+      "input_shape": [
+        6117,
+        512
+      ],
+      "inertia": 1312857.25,
+      "clusters": [
+        {
+          "cluster": 0,
+          "n": 2755,
+          "normal": 1975,
+          "apnea": 780,
+          "apnea_fraction": 0.2831215970961887,
+          "subject_count": 15,
+          "top_subjects": [
+            [
+              "P60",
+              322
+            ],
+            [
+              "P45",
+              307
+            ],
+            [
+              "P03",
+              299
+            ]
+          ]
+        },
+        {
+          "cluster": 1,
+          "n": 732,
+          "normal": 443,
+          "apnea": 289,
+          "apnea_fraction": 0.3948087431693989,
+          "subject_count": 4,
+          "top_subjects": [
+            [
+              "P04",
+              426
+            ],
+            [
+              "P48",
+              168
+            ],
+            [
+              "P02",
+              136
+            ]
+          ]
+        },
+        {
+          "cluster": 2,
+          "n": 1189,
+          "normal": 699,
+          "apnea": 490,
+          "apnea_fraction": 0.4121110176619008,
+          "subject_count": 16,
+          "top_subjects": [
+            [
+              "P37",
+              382
+            ],
+            [
+              "P02",
+              209
+            ],
+            [
+              "P16",
+              188
+            ]
+          ]
+        },
+        {
+          "cluster": 3,
+          "n": 6,
+          "normal": 6,
+          "apnea": 0,
+          "apnea_fraction": 0.0,
+          "subject_count": 2,
+          "top_subjects": [
+            [
+              "P03",
+              5
+            ],
+            [
+              "P37",
+              1
+            ]
+          ]
+        },
+        {
+          "cluster": 4,
+          "n": 1435,
+          "normal": 990,
+          "apnea": 445,
+          "apnea_fraction": 0.31010452961672474,
+          "subject_count": 15,
+          "top_subjects": [
+            [
+              "P14",
+              280
+            ],
+            [
+              "P48",
+              221
+            ],
+            [
+              "P01",
+              220
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "training_started": false
+}

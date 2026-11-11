@@ -1,0 +1,88 @@
+{
+  "protocol": "BAFNet notebook 1+5 epochs, 5-minute RRI/RPA, train a/b/c, test x",
+  "data": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\upstream\\bafnet\\reproduction\\artifacts\\smoke_2records.npz",
+  "seed": 42,
+  "batch_size": 128,
+  "parameter_count": 72868,
+  "split_counts": {
+    "train": 256,
+    "val": 128,
+    "test": 128
+  },
+  "stage1_steps_per_epoch": 2,
+  "hard_sample_count": 20,
+  "hard_sample_class_counts": [
+    10,
+    10
+  ],
+  "clusters": {
+    "0": {
+      "normal": 0,
+      "apnea": 49,
+      "minority": 0,
+      "selected": 0
+    },
+    "1": {
+      "normal": 1,
+      "apnea": 46,
+      "minority": 0,
+      "selected": 2
+    },
+    "2": {
+      "normal": 4,
+      "apnea": 53,
+      "minority": 0,
+      "selected": 8
+    },
+    "3": {
+      "normal": 3,
+      "apnea": 53,
+      "minority": 0,
+      "selected": 6
+    },
+    "4": {
+      "normal": 2,
+      "apnea": 45,
+      "minority": 0,
+      "selected": 4
+    }
+  },
+  "stage1_test": {
+    "n": 128,
+    "accuracy": 0.4609375,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0,
+    "roc_auc": 0.7860476541390322,
+    "confusion_matrix": [
+      [
+        59,
+        0
+      ],
+      [
+        69,
+        0
+      ]
+    ]
+  },
+  "stage2_test": {
+    "n": 128,
+    "accuracy": 0.4609375,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0,
+    "roc_auc": 0.7845738147875214,
+    "confusion_matrix": [
+      [
+        59,
+        0
+      ],
+      [
+        69,
+        0
+      ]
+    ]
+  },
+  "record_test": null,
+  "smoke": true
+}

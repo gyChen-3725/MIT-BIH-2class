@@ -1,0 +1,26 @@
+{
+  "n": 10197,
+  "accuracy": 0.8275963518681966,
+  "balanced_accuracy": 0.8095392924228835,
+  "precision": 0.727560414269275,
+  "sensitivity": 0.7571856287425149,
+  "specificity": 0.8618929561032521,
+  "f1": 0.7420774647887324,
+  "macro_f1": 0.8063016577147374,
+  "mcc": 0.6129559395461922,
+  "roc_auc": 0.8967968394551135,
+  "average_precision": 0.7952589117590242,
+  "confusion_matrix": [
+    [
+      5910,
+      947
+    ],
+    [
+      811,
+      2529
+    ]
+  ],
+  "experiment": "daeac_filtered_rhythm_amplitude_e3_epoch5fold_2class",
+  "folds": 5,
+  "split_unit": "epoch"
+}

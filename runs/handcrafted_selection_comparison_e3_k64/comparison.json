@@ -1,0 +1,59 @@
+{
+  "protocol": "E3 epoch-level frozen five-fold",
+  "model": "HistGradientBoostingClassifier",
+  "sklearn_version": "1.9.0",
+  "metrics": {
+    "all263": {
+      "n": 10197,
+      "accuracy": 0.8256349906835344,
+      "balanced_accuracy": 0.7920334043885395,
+      "precision": 0.7537361923326835,
+      "sensitivity": 0.6946107784431138,
+      "specificity": 0.8894560303339653,
+      "f1": 0.7229666562792147,
+      "macro_f1": 0.7978742840640493,
+      "mcc": 0.5971164432852435,
+      "roc_auc": 0.8887772799158865,
+      "average_precision": 0.7910436279018644,
+      "confusion_matrix": [
+        [
+          6099,
+          758
+        ],
+        [
+          1020,
+          2320
+        ]
+      ]
+    },
+    "selected64": {
+      "n": 10197,
+      "accuracy": 0.8058252427184466,
+      "balanced_accuracy": 0.7640205734076546,
+      "precision": 0.7317655078391274,
+      "sensitivity": 0.6428143712574851,
+      "specificity": 0.8852267755578241,
+      "f1": 0.6844118584635002,
+      "macro_f1": 0.772092614784158,
+      "mcc": 0.5474191637752872,
+      "roc_auc": 0.8580687683987429,
+      "average_precision": 0.7480796570116717,
+      "confusion_matrix": [
+        [
+          6070,
+          787
+        ],
+        [
+          1193,
+          2147
+        ]
+      ]
+    }
+  },
+  "selection_stability": {
+    "pairwise_jaccard_mean": 0.7842281918162195,
+    "pairwise_jaccard_min": 0.7297297297297297,
+    "selected_in_all_folds": 49,
+    "selected_in_at_least_four_folds": 56
+  }
+}

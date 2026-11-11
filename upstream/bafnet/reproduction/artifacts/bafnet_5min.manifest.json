@@ -1,0 +1,511 @@
+{
+  "source_master": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\apnea_ecg_master",
+  "source_answers": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\upstream\\bafnet\\source\\dataset\\event-2-answers",
+  "source_commit": "ac6ea317319f9fd9bbe17f4a45e0e184e748ce2b",
+  "shape": [
+    33635,
+    900,
+    2
+  ],
+  "train_rows": 16690,
+  "test_rows": 16945,
+  "class_counts": {
+    "normal": 20686,
+    "apnea": 12949
+  },
+  "records": [
+    "a01",
+    "a02",
+    "a03",
+    "a04",
+    "a05",
+    "a06",
+    "a07",
+    "a08",
+    "a09",
+    "a10",
+    "a11",
+    "a12",
+    "a13",
+    "a14",
+    "a15",
+    "a16",
+    "a17",
+    "a18",
+    "a19",
+    "a20",
+    "b01",
+    "b02",
+    "b03",
+    "b04",
+    "b05",
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c05",
+    "c06",
+    "c07",
+    "c08",
+    "c09",
+    "c10",
+    "x01",
+    "x02",
+    "x03",
+    "x04",
+    "x05",
+    "x06",
+    "x07",
+    "x08",
+    "x09",
+    "x10",
+    "x11",
+    "x12",
+    "x13",
+    "x14",
+    "x15",
+    "x16",
+    "x17",
+    "x18",
+    "x19",
+    "x20",
+    "x21",
+    "x22",
+    "x23",
+    "x24",
+    "x25",
+    "x26",
+    "x27",
+    "x28",
+    "x29",
+    "x30",
+    "x31",
+    "x32",
+    "x33",
+    "x34",
+    "x35"
+  ],
+  "per_record_skips": {
+    "a01": {
+      "candidate": 485,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a02": {
+      "candidate": 524,
+      "peak_count": 0,
+      "heart_rate": 6,
+      "interpolation": 0
+    },
+    "a03": {
+      "candidate": 515,
+      "peak_count": 1,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a04": {
+      "candidate": 488,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a05": {
+      "candidate": 449,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a06": {
+      "candidate": 505,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a07": {
+      "candidate": 506,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a08": {
+      "candidate": 496,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a09": {
+      "candidate": 491,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a10": {
+      "candidate": 512,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a11": {
+      "candidate": 462,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a12": {
+      "candidate": 573,
+      "peak_count": 0,
+      "heart_rate": 10,
+      "interpolation": 0
+    },
+    "a13": {
+      "candidate": 490,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a14": {
+      "candidate": 505,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a15": {
+      "candidate": 505,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a16": {
+      "candidate": 477,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a17": {
+      "candidate": 480,
+      "peak_count": 5,
+      "heart_rate": 9,
+      "interpolation": 0
+    },
+    "a18": {
+      "candidate": 485,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a19": {
+      "candidate": 498,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "a20": {
+      "candidate": 506,
+      "peak_count": 0,
+      "heart_rate": 1,
+      "interpolation": 0
+    },
+    "b01": {
+      "candidate": 482,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "b02": {
+      "candidate": 513,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "b03": {
+      "candidate": 436,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "b04": {
+      "candidate": 424,
+      "peak_count": 7,
+      "heart_rate": 14,
+      "interpolation": 0
+    },
+    "b05": {
+      "candidate": 428,
+      "peak_count": 6,
+      "heart_rate": 32,
+      "interpolation": 0
+    },
+    "c01": {
+      "candidate": 479,
+      "peak_count": 6,
+      "heart_rate": 4,
+      "interpolation": 0
+    },
+    "c02": {
+      "candidate": 497,
+      "peak_count": 6,
+      "heart_rate": 9,
+      "interpolation": 0
+    },
+    "c03": {
+      "candidate": 449,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "c04": {
+      "candidate": 477,
+      "peak_count": 9,
+      "heart_rate": 13,
+      "interpolation": 0
+    },
+    "c05": {
+      "candidate": 461,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "c06": {
+      "candidate": 463,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "c07": {
+      "candidate": 424,
+      "peak_count": 0,
+      "heart_rate": 6,
+      "interpolation": 0
+    },
+    "c08": {
+      "candidate": 509,
+      "peak_count": 0,
+      "heart_rate": 24,
+      "interpolation": 0
+    },
+    "c09": {
+      "candidate": 463,
+      "peak_count": 6,
+      "heart_rate": 7,
+      "interpolation": 0
+    },
+    "c10": {
+      "candidate": 426,
+      "peak_count": 8,
+      "heart_rate": 4,
+      "interpolation": 0
+    },
+    "x01": {
+      "candidate": 518,
+      "peak_count": 2,
+      "heart_rate": 9,
+      "interpolation": 0
+    },
+    "x02": {
+      "candidate": 467,
+      "peak_count": 0,
+      "heart_rate": 5,
+      "interpolation": 0
+    },
+    "x03": {
+      "candidate": 461,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x04": {
+      "candidate": 477,
+      "peak_count": 7,
+      "heart_rate": 7,
+      "interpolation": 0
+    },
+    "x05": {
+      "candidate": 500,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x06": {
+      "candidate": 445,
+      "peak_count": 5,
+      "heart_rate": 2,
+      "interpolation": 0
+    },
+    "x07": {
+      "candidate": 504,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x08": {
+      "candidate": 513,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x09": {
+      "candidate": 503,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x10": {
+      "candidate": 505,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x11": {
+      "candidate": 452,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x12": {
+      "candidate": 525,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x13": {
+      "candidate": 504,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x14": {
+      "candidate": 488,
+      "peak_count": 1,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x15": {
+      "candidate": 496,
+      "peak_count": 0,
+      "heart_rate": 7,
+      "interpolation": 0
+    },
+    "x16": {
+      "candidate": 510,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x17": {
+      "candidate": 398,
+      "peak_count": 0,
+      "heart_rate": 6,
+      "interpolation": 0
+    },
+    "x18": {
+      "candidate": 454,
+      "peak_count": 13,
+      "heart_rate": 3,
+      "interpolation": 0
+    },
+    "x19": {
+      "candidate": 485,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x20": {
+      "candidate": 508,
+      "peak_count": 17,
+      "heart_rate": 7,
+      "interpolation": 0
+    },
+    "x21": {
+      "candidate": 505,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x22": {
+      "candidate": 477,
+      "peak_count": 7,
+      "heart_rate": 4,
+      "interpolation": 0
+    },
+    "x23": {
+      "candidate": 525,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x24": {
+      "candidate": 424,
+      "peak_count": 7,
+      "heart_rate": 8,
+      "interpolation": 0
+    },
+    "x25": {
+      "candidate": 505,
+      "peak_count": 0,
+      "heart_rate": 5,
+      "interpolation": 0
+    },
+    "x26": {
+      "candidate": 515,
+      "peak_count": 1,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x27": {
+      "candidate": 493,
+      "peak_count": 1,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x28": {
+      "candidate": 491,
+      "peak_count": 0,
+      "heart_rate": 16,
+      "interpolation": 0
+    },
+    "x29": {
+      "candidate": 466,
+      "peak_count": 11,
+      "heart_rate": 8,
+      "interpolation": 0
+    },
+    "x30": {
+      "candidate": 509,
+      "peak_count": 0,
+      "heart_rate": 1,
+      "interpolation": 0
+    },
+    "x31": {
+      "candidate": 553,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x32": {
+      "candidate": 534,
+      "peak_count": 0,
+      "heart_rate": 0,
+      "interpolation": 0
+    },
+    "x33": {
+      "candidate": 468,
+      "peak_count": 0,
+      "heart_rate": 5,
+      "interpolation": 0
+    },
+    "x34": {
+      "candidate": 470,
+      "peak_count": 0,
+      "heart_rate": 5,
+      "interpolation": 0
+    },
+    "x35": {
+      "candidate": 478,
+      "peak_count": 6,
+      "heart_rate": 5,
+      "interpolation": 0
+    }
+  },
+  "note": "5-minute ECG is reconstructed by concatenating master 60-second raw epochs"
+}

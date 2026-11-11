@@ -1,0 +1,181 @@
+{
+  "fold": 0,
+  "fit_rows": "train_indices only for both stages",
+  "train_n": 6117,
+  "val_n": 2040,
+  "test_n": 2040,
+  "source_feature_count": 263,
+  "global_pca_components": 104,
+  "global_pca_explained_variance": 0.9502009153366089,
+  "parent_k": 2,
+  "refined_parent": 0,
+  "parent_selection": "training-label fraction closest to 0.5",
+  "parent_train_summary": [
+    {
+      "cluster": 0,
+      "n": 3136,
+      "apnea_fraction": 0.45153061224489793,
+      "distance_to_half": 0.04846938775510207
+    },
+    {
+      "cluster": 1,
+      "n": 2981,
+      "apnea_fraction": 0.19724924521972492,
+      "distance_to_half": 0.3027507547802751
+    }
+  ],
+  "local_train_n": 3136,
+  "local_pca_components": 112,
+  "local_pca_explained_variance": 0.9503043293952942,
+  "local_k": 2,
+  "leaf_names": [
+    "P1",
+    "P0/S0",
+    "P0/S1"
+  ],
+  "all_leaf_summary": [
+    {
+      "cluster": 0,
+      "n": 4970,
+      "normal": 4018,
+      "apnea": 952,
+      "apnea_fraction": 0.19154929577464788,
+      "subject_n": 16
+    },
+    {
+      "cluster": 1,
+      "n": 2763,
+      "normal": 1467,
+      "apnea": 1296,
+      "apnea_fraction": 0.46905537459283386,
+      "subject_n": 16
+    },
+    {
+      "cluster": 2,
+      "n": 2464,
+      "normal": 1372,
+      "apnea": 1092,
+      "apnea_fraction": 0.4431818181818182,
+      "subject_n": 16
+    }
+  ],
+  "held_out_test_leaf_summary": [
+    {
+      "cluster": 0,
+      "n": 1000,
+      "normal": 815,
+      "apnea": 185,
+      "apnea_fraction": 0.185,
+      "subject_n": 16
+    },
+    {
+      "cluster": 1,
+      "n": 545,
+      "normal": 299,
+      "apnea": 246,
+      "apnea_fraction": 0.45137614678899085,
+      "subject_n": 16
+    },
+    {
+      "cluster": 2,
+      "n": 495,
+      "normal": 258,
+      "apnea": 237,
+      "apnea_fraction": 0.47878787878787876,
+      "subject_n": 16
+    }
+  ],
+  "held_out_test_overall_association": {
+    "test_contingency_normal_apnea": [
+      [
+        815,
+        185
+      ],
+      [
+        299,
+        246
+      ],
+      [
+        258,
+        237
+      ]
+    ],
+    "pearson_chi_square": 181.62638685552324,
+    "degrees_of_freedom": 2,
+    "asymptotic_p": 3.633550582035465e-40,
+    "cramer_v": 0.2983832143003974,
+    "within_subject_permutation_p": 0.0004997501249375312,
+    "within_record_circular_shift_p": 0.0004997501249375312,
+    "permutations": 2000
+  },
+  "held_out_test_refined_parent_summary": [
+    {
+      "cluster": 0,
+      "n": 545,
+      "normal": 299,
+      "apnea": 246,
+      "apnea_fraction": 0.45137614678899085,
+      "subject_n": 16
+    },
+    {
+      "cluster": 1,
+      "n": 495,
+      "normal": 258,
+      "apnea": 237,
+      "apnea_fraction": 0.47878787878787876,
+      "subject_n": 16
+    }
+  ],
+  "held_out_test_refined_parent_association": {
+    "test_contingency_normal_apnea": [
+      [
+        299,
+        246
+      ],
+      [
+        258,
+        237
+      ]
+    ],
+    "pearson_chi_square": 0.7836202833764414,
+    "degrees_of_freedom": 1,
+    "asymptotic_p": 0.3760362102869075,
+    "cramer_v": 0.027449609135798577,
+    "within_subject_permutation_p": 0.34632683658170915,
+    "within_record_circular_shift_p": 0.36681659170414793,
+    "permutations": 2000
+  },
+  "profile_features": [
+    "am_qr.below_baseline_050_fraction",
+    "am_qr.log_baseline_min10_mean_ratio",
+    "am_qr.log_baseline_q10_ratio",
+    "am_r.below_baseline_050_fraction",
+    "sm_qr.below_baseline_050_fraction",
+    "sm_qr.log_baseline_min10_mean_ratio",
+    "am_qr.below_baseline_050_longest_seconds",
+    "am_r.log_baseline_min10_mean_ratio",
+    "sm_qr.log_baseline_q10_ratio",
+    "am_r.log_baseline_q10_ratio",
+    "am_r.below_baseline_050_longest_seconds",
+    "sm_angle.log_baseline_q10_ratio",
+    "sm_qr.below_baseline_050_longest_seconds",
+    "am_qr.log_baseline_median_ratio",
+    "sm_angle.below_baseline_050_fraction",
+    "am_qr.spectral_entropy",
+    "sm_angle.log_baseline_min10_mean_ratio",
+    "sm_angle.spectral_entropy",
+    "am_r.log_baseline_median_ratio",
+    "sm_qr.log_baseline_median_ratio",
+    "sm_rs.below_baseline_050_fraction",
+    "sm_rs.log_baseline_q10_ratio",
+    "am_r.spectral_entropy",
+    "sm_qr.spectral_entropy",
+    "sm_rs.log_baseline_min10_mean_ratio",
+    "am_qr.spectral_peak_fraction",
+    "am_area.log_baseline_min10_mean_ratio",
+    "sm_angle.spectral_peak_fraction",
+    "sm_rs.spectral_entropy",
+    "am_area.log_baseline_q10_ratio"
+  ],
+  "warning": "The parent selected for refinement uses training labels only. Local K selection is unsupervised; test labels are used only for final descriptive evaluation."
+}

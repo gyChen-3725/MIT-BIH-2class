@@ -1,0 +1,119 @@
+{
+  "protocol": "BAFNet two-stage flow, 100+5 epochs, 5-minute RRI/RPA, dataset=MIT-BIH-PSG",
+  "dataset_name": "MIT-BIH-PSG",
+  "record_eval": "none",
+  "data": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\upstream\\bafnet\\mitbih\\artifacts\\mitbih_5min.npz",
+  "seed": 42,
+  "batch_size": 128,
+  "initial_learning_rate": 0.001,
+  "learning_rate_decay_epoch_indices": {
+    "stage1": [
+      71,
+      81,
+      91
+    ],
+    "stage2": []
+  },
+  "parameter_count": 72868,
+  "runtime": {
+    "python": "3.8.20",
+    "tensorflow": "2.13.0",
+    "numpy": "1.24.4",
+    "scikit_learn": "1.3.2"
+  },
+  "split_counts": {
+    "train": 5507,
+    "val": 2361,
+    "test": 2098
+  },
+  "stage1_steps_per_epoch": 44,
+  "hard_sample_count": 3132,
+  "hard_sample_class_counts": [
+    1578,
+    1554
+  ],
+  "clusters": {
+    "1": {
+      "normal": 548,
+      "apnea": 33,
+      "minority": 1,
+      "selected": 64
+    },
+    "3": {
+      "normal": 839,
+      "apnea": 483,
+      "minority": 1,
+      "selected": 840
+    },
+    "0": {
+      "normal": 878,
+      "apnea": 445,
+      "minority": 1,
+      "selected": 781
+    },
+    "4": {
+      "normal": 751,
+      "apnea": 367,
+      "minority": 1,
+      "selected": 646
+    },
+    "2": {
+      "normal": 697,
+      "apnea": 466,
+      "minority": 1,
+      "selected": 801
+    }
+  },
+  "stage1_test": {
+    "n": 2098,
+    "accuracy": 0.721163012392755,
+    "sensitivity": 0.35488308115543327,
+    "specificity": 0.9153902261123268,
+    "f1": 0.46866485013623976,
+    "roc_auc": 0.7711085493675737,
+    "keras_evaluate": {
+      "loss": 6.974482536315918,
+      "outputs_loss": 1.5508228540420532,
+      "rri_loss": 4.973398685455322,
+      "ampl_loss": 0.09621404856443405,
+      "outputs_accuracy": 0.7211630344390869
+    },
+    "confusion_matrix": [
+      [
+        1255,
+        116
+      ],
+      [
+        469,
+        258
+      ]
+    ]
+  },
+  "stage2_test": {
+    "n": 2098,
+    "accuracy": 0.7330791229742613,
+    "sensitivity": 0.45529573590096284,
+    "specificity": 0.8803792851932896,
+    "f1": 0.541734860883797,
+    "roc_auc": 0.7719623524029389,
+    "keras_evaluate": {
+      "loss": 7.033604621887207,
+      "outputs_loss": 1.5116424560546875,
+      "rri_loss": 5.070591926574707,
+      "ampl_loss": 0.09733326733112335,
+      "outputs_accuracy": 0.7330791354179382
+    },
+    "confusion_matrix": [
+      [
+        1207,
+        164
+      ],
+      [
+        396,
+        331
+      ]
+    ]
+  },
+  "record_test": null,
+  "smoke": false
+}

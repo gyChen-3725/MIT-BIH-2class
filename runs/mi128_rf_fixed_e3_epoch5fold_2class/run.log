@@ -1,0 +1,18 @@
+2026-11-02 14:01:14,538 | INFO | 读取347维扩展特征并核对MIT master行顺序
+2026-11-02 14:01:14,716 | INFO | Fold 0开始：开发集=8157，测试集=2040，计算互信息排名
+2026-11-02 14:01:17,576 | INFO | Fold 0拟合128维随机森林
+2026-11-02 14:01:18,270 | INFO | Fold 0完成：accuracy=0.8500，balanced_accuracy=0.8182，macro_f1=0.8255，roc_auc=0.9188，耗时=3.5秒
+2026-11-02 14:01:18,273 | INFO | Fold 1开始：开发集=8157，测试集=2040，计算互信息排名
+2026-11-02 14:01:21,070 | INFO | Fold 1拟合128维随机森林
+2026-11-02 14:01:21,759 | INFO | Fold 1完成：accuracy=0.8446，balanced_accuracy=0.8119，macro_f1=0.8192，roc_auc=0.9130，耗时=3.5秒
+2026-11-02 14:01:21,762 | INFO | Fold 2开始：开发集=8158，测试集=2039，计算互信息排名
+2026-11-02 14:01:24,565 | INFO | Fold 2拟合128维随机森林
+2026-11-02 14:01:25,228 | INFO | Fold 2完成：accuracy=0.8180，balanced_accuracy=0.7795，macro_f1=0.7872，roc_auc=0.8975，耗时=3.5秒
+2026-11-02 14:01:25,230 | INFO | Fold 3开始：开发集=8158，测试集=2039，计算互信息排名
+2026-11-02 14:01:28,041 | INFO | Fold 3拟合128维随机森林
+2026-11-02 14:01:28,734 | INFO | Fold 3完成：accuracy=0.8254，balanced_accuracy=0.7784，macro_f1=0.7912，roc_auc=0.8948，耗时=3.5秒
+2026-11-02 14:01:28,737 | INFO | Fold 4开始：开发集=8158，测试集=2039，计算互信息排名
+2026-11-02 14:01:31,542 | INFO | Fold 4拟合128维随机森林
+2026-11-02 14:01:32,210 | INFO | Fold 4完成：accuracy=0.8225，balanced_accuracy=0.7847，macro_f1=0.7925，roc_auc=0.8979，耗时=3.5秒
+2026-11-02 14:01:32,299 | INFO | 五折完成：OOF accuracy=0.8321，balanced_accuracy=0.7945，macro_f1=0.8033，roc_auc=0.9041，总耗时=17.7秒
+2026-11-02 14:01:32,299 | INFO | 结果目录：E:\envs\Projects\Sleep-apnea-detection\MIT-BIH-2class\runs\mi128_rf_fixed_e3_epoch5fold_2class

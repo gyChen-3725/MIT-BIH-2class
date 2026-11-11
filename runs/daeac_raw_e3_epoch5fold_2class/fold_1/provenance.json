@@ -1,0 +1,12 @@
+{
+  "python": "3.11.15",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.4.4",
+  "device": "cuda",
+  "cuda_device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "train_class_counts": [
+    4114,
+    2004
+  ],
+  "parameter_count": 1414530
+}

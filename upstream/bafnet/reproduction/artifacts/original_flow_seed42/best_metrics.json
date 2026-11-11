@@ -1,0 +1,79 @@
+{
+  "checkpoint": "best val_outputs_accuracy",
+  "selected_stage": "stage1",
+  "selected_epoch": 1,
+  "best_val_accuracy": 0.6129418611526489,
+  "segment_test": {
+    "n": 16945,
+    "accuracy": 0.6169961640601948,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0,
+    "roc_auc": 0.5721392216550644,
+    "confusion_matrix": [
+      [
+        10455,
+        0
+      ],
+      [
+        6490,
+        0
+      ]
+    ]
+  },
+  "record_test": {
+    "n_records": 35,
+    "accuracy": 0.34285714285714286,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "roc_auc": 0.5,
+    "correlation": null,
+    "confusion_matrix": [
+      [
+        12,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ],
+    "predicted_events_per_hour": {
+      "x01": 0.0,
+      "x02": 0.0,
+      "x03": 0.0,
+      "x04": 0.0,
+      "x05": 0.0,
+      "x06": 0.0,
+      "x07": 0.0,
+      "x08": 0.0,
+      "x09": 0.0,
+      "x10": 0.0,
+      "x11": 0.0,
+      "x12": 0.0,
+      "x13": 0.0,
+      "x14": 0.0,
+      "x15": 0.0,
+      "x16": 0.0,
+      "x17": 0.0,
+      "x18": 0.0,
+      "x19": 0.0,
+      "x20": 0.0,
+      "x21": 0.0,
+      "x22": 0.0,
+      "x23": 0.0,
+      "x24": 0.0,
+      "x25": 0.0,
+      "x26": 0.0,
+      "x27": 0.0,
+      "x28": 0.0,
+      "x29": 0.0,
+      "x30": 0.0,
+      "x31": 0.0,
+      "x32": 0.0,
+      "x33": 0.0,
+      "x34": 0.0,
+      "x35": 0.0
+    }
+  }
+}

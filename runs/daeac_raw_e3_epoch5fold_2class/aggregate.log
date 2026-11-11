@@ -1,0 +1,26 @@
+﻿{
+  "n": 10197,
+  "accuracy": 0.8169069334117878,
+  "balanced_accuracy": 0.8091926690588489,
+  "precision": 0.6946867565424266,
+  "sensitivity": 0.7868263473053893,
+  "specificity": 0.8315589908123086,
+  "f1": 0.737891337919416,
+  "macro_f1": 0.7986043231681323,
+  "mcc": 0.6007819049839396,
+  "roc_auc": 0.8962797097943531,
+  "average_precision": 0.7934711116686212,
+  "confusion_matrix": [
+    [
+      5702,
+      1155
+    ],
+    [
+      712,
+      2628
+    ]
+  ],
+  "experiment": "daeac_raw_e3_epoch5fold_2class",
+  "folds": 5,
+  "split_unit": "epoch"
+}

@@ -1,0 +1,15 @@
+{
+  "experiment": "mi128_rf_fixed_e3_epoch5fold_2class",
+  "feature_path": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\features\\expanded347\\features_30s_expanded.npz",
+  "feature_sha256": "fb4ddf3801aae870c1e47ce985c1e12efc682b08c119fa973883d6dbac829554",
+  "master_path": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\mitbih_master\\mitbih_master_30s.npz",
+  "split_dir": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\protocols\\e3_full_epoch5fold_20260913",
+  "feature_group": "fusion3_expanded",
+  "selector": "mutual_info",
+  "dimension": 128,
+  "model": "random_forest",
+  "base_seed": 42,
+  "sklearn": "1.9.0",
+  "development_rows": "current fold train+validation",
+  "test_labels_used_for_selection": false
+}

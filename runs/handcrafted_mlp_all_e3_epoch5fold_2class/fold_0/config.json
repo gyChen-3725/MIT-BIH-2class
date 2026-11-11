@@ -1,0 +1,34 @@
+{
+  "name": "handcrafted_mlp_all_e3_epoch5fold_2class",
+  "data_path": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\mitbih_master\\mitbih_master_30s.npz",
+  "split_dir": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\protocols\\e3_full_epoch5fold_20260913",
+  "split_unit": "epoch",
+  "output_root": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\runs",
+  "signal_key": "handcrafted_all",
+  "normalization": "train_feature_zscore",
+  "expected_input_length": 263,
+  "model": "handcrafted_mlp",
+  "model_params": {
+    "input_dim": 263,
+    "hidden_dim": 128,
+    "dropout": 0.2
+  },
+  "labels": [
+    "Normal",
+    "Apnea"
+  ],
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 120,
+  "early_stopping_patience": 20,
+  "class_weight": "balanced",
+  "seed": 17,
+  "fold": 0,
+  "num_workers": 0,
+  "device": "cuda",
+  "repository_root": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class",
+  "config_path": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\configs\\handcrafted_mlp_all_e3_epoch5fold.yaml",
+  "checkpoint_metric": "val_accuracy",
+  "handcrafted_path": "E:\\envs\\Projects\\EDR\\outputs\\slpdb_paper_aligned_v1\\handcrafted_v1\\features_30s.npz"
+}

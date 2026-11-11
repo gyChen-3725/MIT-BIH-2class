@@ -1,0 +1,32 @@
+{
+  "checkpoint": "best val_outputs_accuracy",
+  "selected_stage": "stage1",
+  "selected_epoch": 99,
+  "best_val_accuracy": 0.8551461100578308,
+  "segment_test": {
+    "n": 2098,
+    "accuracy": 0.721163012392755,
+    "sensitivity": 0.35488308115543327,
+    "specificity": 0.9153902261123268,
+    "f1": 0.46866485013623976,
+    "roc_auc": 0.7710664110274029,
+    "keras_evaluate": {
+      "loss": 6.9977335929870605,
+      "outputs_loss": 1.5507102012634277,
+      "rri_loss": 4.996794700622559,
+      "ampl_loss": 0.09617733955383301,
+      "outputs_accuracy": 0.7211630344390869
+    },
+    "confusion_matrix": [
+      [
+        1255,
+        116
+      ],
+      [
+        469,
+        258
+      ]
+    ]
+  },
+  "record_test": null
+}

@@ -1,0 +1,26 @@
+{
+  "n": 10197,
+  "accuracy": 0.7272727272727273,
+  "balanced_accuracy": 0.6924833139612564,
+  "precision": 0.5823754789272031,
+  "sensitivity": 0.5916167664670658,
+  "specificity": 0.793349861455447,
+  "f1": 0.5869597504826972,
+  "macro_f1": 0.6916937688069733,
+  "mcc": 0.38343284217616,
+  "roc_auc": 0.7584716959547435,
+  "average_precision": 0.6162568060475199,
+  "confusion_matrix": [
+    [
+      5440,
+      1417
+    ],
+    [
+      1364,
+      1976
+    ]
+  ],
+  "experiment": "bafnet_rri_amp_30s_e3_epoch5fold_2class",
+  "folds": 5,
+  "split_unit": "epoch"
+}

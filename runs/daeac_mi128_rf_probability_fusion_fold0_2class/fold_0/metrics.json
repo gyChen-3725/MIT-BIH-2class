@@ -1,0 +1,90 @@
+{
+  "n": 2040,
+  "accuracy": 0.8563725490196078,
+  "balanced_accuracy": 0.8429082069097955,
+  "precision": 0.7682403433476395,
+  "sensitivity": 0.8038922155688623,
+  "specificity": 0.8819241982507289,
+  "f1": 0.7856620336503292,
+  "macro_f1": 0.8388317540164657,
+  "mcc": 0.6781412853644291,
+  "roc_auc": 0.9261469771826609,
+  "average_precision": 0.8555468096332979,
+  "confusion_matrix": [
+    [
+      1210,
+      162
+    ],
+    [
+      131,
+      537
+    ]
+  ],
+  "fold": 0,
+  "method": "validation-selected probability fusion",
+  "daeac_weight": 0.55,
+  "rf_weight": 0.44999999999999996,
+  "weight_selection_metric": "validation accuracy",
+  "weight_step": 0.05,
+  "daeac_run_dir": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\runs\\daeac_filtered_rhythm_amplitude_e3_epoch5fold_2class\\fold_0",
+  "daeac_best_epoch": 70,
+  "rf_recipe": {
+    "feature_group": "fusion3_expanded",
+    "selector": "mutual_info",
+    "dimension": 128,
+    "model": "random_forest",
+    "seed": 42,
+    "validation_fit_rows": "train only",
+    "test_fit_rows": "train+validation",
+    "test_labels_used": false
+  },
+  "component_test_metrics": {
+    "daeac": {
+      "n": 2040,
+      "accuracy": 0.8397058823529412,
+      "balanced_accuracy": 0.8328219653986488,
+      "precision": 0.7288590604026846,
+      "sensitivity": 0.812874251497006,
+      "specificity": 0.8527696793002916,
+      "f1": 0.7685774946921444,
+      "macro_f1": 0.8229839104506842,
+      "mcc": 0.6487752039744691,
+      "roc_auc": 0.9152925926572512,
+      "average_precision": 0.8283000422724245,
+      "confusion_matrix": [
+        [
+          1170,
+          202
+        ],
+        [
+          125,
+          543
+        ]
+      ]
+    },
+    "random_forest": {
+      "n": 2040,
+      "accuracy": 0.85,
+      "balanced_accuracy": 0.818198879209511,
+      "precision": 0.7976973684210527,
+      "sensitivity": 0.7260479041916168,
+      "specificity": 0.9103498542274052,
+      "f1": 0.7601880877742947,
+      "macro_f1": 0.8255291366118264,
+      "mcc": 0.6529360228901813,
+      "roc_auc": 0.9188267051902027,
+      "average_precision": 0.8467622539215686,
+      "confusion_matrix": [
+        [
+          1249,
+          123
+        ],
+        [
+          183,
+          485
+        ]
+      ]
+    }
+  },
+  "test_labels_used_for_weight_selection": false
+}

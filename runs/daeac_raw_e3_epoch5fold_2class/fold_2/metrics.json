@@ -1,0 +1,29 @@
+{
+  "n": 2039,
+  "accuracy": 0.820990681706719,
+  "balanced_accuracy": 0.819293579143682,
+  "precision": 0.6929936305732484,
+  "sensitivity": 0.8143712574850299,
+  "specificity": 0.8242159008023341,
+  "f1": 0.7487955953200275,
+  "macro_f1": 0.8048739881362041,
+  "mcc": 0.615947281552286,
+  "roc_auc": 0.9021530243670208,
+  "average_precision": 0.8069018324193092,
+  "confusion_matrix": [
+    [
+      1130,
+      241
+    ],
+    [
+      124,
+      544
+    ]
+  ],
+  "fold": 2,
+  "split_unit": "epoch",
+  "test_loss": 0.3841365693636995,
+  "best_epoch": 58,
+  "best_val_macro_f1": 0.8056740262369989,
+  "debug": false
+}

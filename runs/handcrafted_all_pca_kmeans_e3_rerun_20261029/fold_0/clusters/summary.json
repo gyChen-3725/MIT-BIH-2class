@@ -1,0 +1,100 @@
+{
+  "fold": 0,
+  "fit_rows": "train_indices only",
+  "train_n": 6117,
+  "val_n": 2040,
+  "test_n": 2040,
+  "source_feature_count": 263,
+  "pca_components": 104,
+  "pca_explained_variance": 0.9502009153366089,
+  "chosen_k": 2,
+  "k_selection": "equal-weight rank of silhouette, CH, DB, and five-seed ARI",
+  "all_cluster_summary": [
+    {
+      "cluster": 0,
+      "n": 5227,
+      "normal": 2839,
+      "apnea": 2388,
+      "apnea_fraction": 0.4568586187105414,
+      "subject_n": 16
+    },
+    {
+      "cluster": 1,
+      "n": 4970,
+      "normal": 4018,
+      "apnea": 952,
+      "apnea_fraction": 0.19154929577464788,
+      "subject_n": 16
+    }
+  ],
+  "held_out_test_cluster_summary": [
+    {
+      "cluster": 0,
+      "n": 1040,
+      "normal": 557,
+      "apnea": 483,
+      "apnea_fraction": 0.46442307692307694,
+      "subject_n": 16
+    },
+    {
+      "cluster": 1,
+      "n": 1000,
+      "normal": 815,
+      "apnea": 185,
+      "apnea_fraction": 0.185,
+      "subject_n": 16
+    }
+  ],
+  "held_out_test_label_association": {
+    "test_contingency_normal_apnea": [
+      [
+        557,
+        483
+      ],
+      [
+        815,
+        185
+      ]
+    ],
+    "pearson_chi_square": 180.74133019003483,
+    "degrees_of_freedom": 1,
+    "asymptotic_p": 3.3385636442802005e-41,
+    "cramer_v": 0.2976553229317845,
+    "within_subject_permutation_p": 0.0004997501249375312,
+    "within_record_circular_shift_p": 0.0004997501249375312,
+    "permutations": 2000
+  },
+  "profile_features": [
+    "am_qr.spectral_entropy",
+    "sm_angle.log_baseline_q10_ratio",
+    "am_qr.below_baseline_050_fraction",
+    "sm_angle.below_baseline_050_fraction",
+    "am_qr.autocorr_peak_strength",
+    "sm_angle.spectral_entropy",
+    "sm_angle.envelope_modulation_depth",
+    "am_qr.log_baseline_q10_ratio",
+    "am_r.spectral_entropy",
+    "sm_angle.autocorr_peak_strength",
+    "sm_qr.spectral_entropy",
+    "am_qr.spectral_peak_fraction",
+    "sm_angle.log_baseline_min10_mean_ratio",
+    "am_r.below_baseline_050_fraction",
+    "sm_qr.below_baseline_050_fraction",
+    "sm_rs.log_baseline_q10_ratio",
+    "am_r.autocorr_peak_strength",
+    "sm_rs.below_baseline_050_fraction",
+    "sm_angle.spectral_peak_fraction",
+    "sm_qr.autocorr_peak_strength",
+    "am_qr.log_baseline_min10_mean_ratio",
+    "sm_qr.log_baseline_q10_ratio",
+    "am_qr.envelope_modulation_depth",
+    "sm_qr.spectral_peak_fraction",
+    "am_r.spectral_peak_fraction",
+    "sm_rs.autocorr_peak_strength",
+    "sm_rs.spectral_entropy",
+    "am_r.log_baseline_q10_ratio",
+    "sm_rs.log_baseline_min10_mean_ratio",
+    "sm_qr.log_baseline_min10_mean_ratio"
+  ],
+  "warning": "Clusters are descriptive feature phenotypes. Association does not establish clinical subtypes or predictive generalization."
+}

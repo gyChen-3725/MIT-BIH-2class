@@ -1,0 +1,30 @@
+{
+  "name": "bafnet_rri_amp_30s_e3_epoch5fold_2class",
+  "data_path": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\mitbih_master\\mitbih_master_30s.npz",
+  "split_dir": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\protocols\\e3_full_epoch5fold_20260913",
+  "split_unit": "epoch",
+  "output_root": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\runs",
+  "signal_key": "rri_r_amp_256",
+  "normalization": "per_channel_minmax",
+  "expected_input_length": 256,
+  "model": "bafnet",
+  "model_params": {
+    "reconstruction_weight": 1.0
+  },
+  "labels": [
+    "Normal",
+    "Apnea"
+  ],
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 120,
+  "early_stopping_patience": 20,
+  "class_weight": "balanced",
+  "seed": 17,
+  "fold": 4,
+  "num_workers": 0,
+  "device": "auto",
+  "repository_root": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class",
+  "config_path": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\configs\\bafnet_e3_epoch5fold.yaml"
+}

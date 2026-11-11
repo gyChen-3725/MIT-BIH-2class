@@ -1,0 +1,202 @@
+{
+  "fold": 0,
+  "n": 6111,
+  "normal_n": 4107,
+  "apnea_n": 2004,
+  "subjects_n": 16,
+  "permutations": 4999,
+  "seed": 42,
+  "cluster_test": "Pearson chi-square on 5x2 tables; within-subject label shuffling and circular shifts",
+  "feature_test": "per-epoch processed-feature mean; Mann-Whitney U across epochs; Wilcoxon of within-subject mean differences",
+  "multiple_testing": "Holm across three cluster circular-shift P values and two feature Wilcoxon P values",
+  "limitations": [
+    "Within-subject label shuffling breaks temporal correlation. Circular shifts preserve runs in the retained train sequence but train/validation gaps remain.",
+    "Cluster P values do not measure predictive accuracy or compare clustering combinations directly.",
+    "The paper did not specify the statistical test used for its RRI/RPA P values; these are new tests on MIT-BIH data."
+  ],
+  "clusters": {
+    "rri": {
+      "table_normal_apnea": [
+        [
+          1364,
+          528
+        ],
+        [
+          668,
+          291
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1422,
+          751
+        ],
+        [
+          649,
+          429
+        ]
+      ],
+      "chi_square": 52.28717070262044,
+      "degrees_of_freedom": 4,
+      "chi_square_asymptotic_p": 1.2013024342721161e-10,
+      "minimum_expected_count": 2.95139911634757,
+      "cramers_v": 0.09249993538686986,
+      "within_subject_permutation_p": 1.0,
+      "permutation_null_chi_square_quantiles_05_50_95": [
+        80.35488397875937,
+        101.43954000916132,
+        124.85950142722511
+      ],
+      "within_subject_circular_shift_p": 0.9764,
+      "circular_null_chi_square_quantiles_05_50_95": [
+        59.01427784459699,
+        109.19588833870932,
+        181.05671751512256
+      ],
+      "holm_adjusted_circular_shift_p": 0.9764
+    },
+    "amplitude": {
+      "table_normal_apnea": [
+        [
+          1024,
+          419
+        ],
+        [
+          327,
+          259
+        ],
+        [
+          169,
+          58
+        ],
+        [
+          2349,
+          1186
+        ],
+        [
+          238,
+          82
+        ]
+      ],
+      "chi_square": 57.60521231368206,
+      "degrees_of_freedom": 4,
+      "chi_square_asymptotic_p": 9.235094105602916e-12,
+      "minimum_expected_count": 74.44084437898871,
+      "cramers_v": 0.09709005541267518,
+      "within_subject_permutation_p": 0.0002,
+      "permutation_null_chi_square_quantiles_05_50_95": [
+        13.029747392011616,
+        19.605192261540346,
+        28.77365897906433
+      ],
+      "within_subject_circular_shift_p": 0.113,
+      "circular_null_chi_square_quantiles_05_50_95": [
+        12.031945257686058,
+        31.535970152193347,
+        68.66979031508987
+      ],
+      "holm_adjusted_circular_shift_p": 0.452
+    },
+    "both": {
+      "table_normal_apnea": [
+        [
+          891,
+          398
+        ],
+        [
+          1916,
+          757
+        ],
+        [
+          793,
+          545
+        ],
+        [
+          334,
+          277
+        ],
+        [
+          173,
+          27
+        ]
+      ],
+      "chi_square": 142.06995388466424,
+      "degrees_of_freedom": 4,
+      "chi_square_asymptotic_p": 1.0172903230827637e-29,
+      "minimum_expected_count": 65.586647029946,
+      "cramers_v": 0.15247371357327072,
+      "within_subject_permutation_p": 0.2434,
+      "permutation_null_chi_square_quantiles_05_50_95": [
+        102.97956036007429,
+        129.64177747377548,
+        159.2014806316362
+      ],
+      "within_subject_circular_shift_p": 0.4576,
+      "circular_null_chi_square_quantiles_05_50_95": [
+        73.34219161964094,
+        136.8195873949543,
+        222.55618514198395
+      ],
+      "holm_adjusted_circular_shift_p": 0.9152
+    }
+  },
+  "features": {
+    "rri_mean_seconds_after_clip": {
+      "normal_mean": 0.8555306792259216,
+      "apnea_mean": 0.848530113697052,
+      "mean_difference_apnea_minus_normal": -0.007000565528869629,
+      "mann_whitney_p_epoch_level": 0.22942079603672028,
+      "rank_biserial_apnea_vs_normal": -0.018909215927124023,
+      "subjects_with_both_labels": 14,
+      "subject_delta_median": 0.014131218194961548,
+      "wilcoxon_p_subject_level": 0.0107421875,
+      "subject_deltas": {
+        "P01": 0.015649020671844482,
+        "P02": -0.0007224678993225098,
+        "P03": 0.06862199306488037,
+        "P04": 0.07573533058166504,
+        "P14": 0.007360696792602539,
+        "P16": 0.009066998958587646,
+        "P32": 0.05739539861679077,
+        "P37": 0.02535104751586914,
+        "P48": -0.00903773307800293,
+        "P59": 0.015819072723388672,
+        "P60": 0.012613415718078613,
+        "P61": -0.010868489742279053,
+        "P66": 0.06466430425643921,
+        "P67": -0.0046430230140686035
+      },
+      "holm_adjusted_wilcoxon_p": 0.0537109375
+    },
+    "amplitude_mean_after_asinh": {
+      "normal_mean": 1.8930184841156006,
+      "apnea_mean": 1.752308964729309,
+      "mean_difference_apnea_minus_normal": -0.1407095193862915,
+      "mann_whitney_p_epoch_level": 0.0516853928565979,
+      "rank_biserial_apnea_vs_normal": 0.030613064765930176,
+      "subjects_with_both_labels": 14,
+      "subject_delta_median": 0.02355670928955078,
+      "wilcoxon_p_subject_level": 0.2412109375,
+      "subject_deltas": {
+        "P01": 0.16591739654541016,
+        "P02": 0.6746117472648621,
+        "P03": 0.11289286613464355,
+        "P04": -0.13334381580352783,
+        "P14": 0.12241816520690918,
+        "P16": 0.21353530883789062,
+        "P32": 0.011519432067871094,
+        "P37": 0.10109949111938477,
+        "P48": -0.6349588632583618,
+        "P59": 0.005065202713012695,
+        "P60": -0.06431341171264648,
+        "P61": -0.0296630859375,
+        "P66": 0.03559398651123047,
+        "P67": 0.004613161087036133
+      },
+      "holm_adjusted_wilcoxon_p": 0.7236328125
+    }
+  },
+  "training_started": false
+}

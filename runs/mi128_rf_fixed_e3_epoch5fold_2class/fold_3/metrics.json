@@ -1,0 +1,32 @@
+{
+  "n": 2039,
+  "accuracy": 0.8254046101029917,
+  "balanced_accuracy": 0.7784382001860611,
+  "precision": 0.7857142857142857,
+  "sensitivity": 0.6422155688622755,
+  "specificity": 0.9146608315098468,
+  "f1": 0.7067545304777595,
+  "macro_f1": 0.7912264272500529,
+  "mcc": 0.5902548264120178,
+  "roc_auc": 0.8948443375830396,
+  "average_precision": 0.8132876242767746,
+  "confusion_matrix": [
+    [
+      1254,
+      117
+    ],
+    [
+      239,
+      429
+    ]
+  ],
+  "fold": 3,
+  "feature_group": "fusion3_expanded",
+  "selector": "mutual_info",
+  "dimension": 128,
+  "model": "random_forest",
+  "seed": 45,
+  "ranking_fit_rows": "train+validation",
+  "test_labels_used_for_selection": false,
+  "elapsed_seconds": 3.499322600000596
+}
