@@ -1,0 +1,3 @@
+[submodule "upstream/bafnet/source"]
+	path = upstream/bafnet/source
+	url = https://github.com/XianhuiChen/Bottleneck-Attention-Based-Fusion-Network-for-Sleep-Apnea-Detection.git
