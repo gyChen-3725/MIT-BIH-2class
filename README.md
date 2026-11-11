@@ -25,6 +25,13 @@ BAFNet 基于 Apnea-ECG 的原流程复现单独放在
 `scripts/features/`、`scripts/selection/` 和 `scripts/training/`。相邻 `EDR` 仓库只作为
 旧263维EDR特征和心搏定位中间数据的上游来源，不再承载当前347维实验入口。
 
+## 本机与实验室电脑同步
+
+代码、配置和实验输出通过 GitHub 与 Git LFS 在两台电脑之间同步。开始工作前必须拉取，
+结束工作后必须提交并推送；两台电脑不得同时写入同一个实验目录。首次配置、实验命名、
+日常命令和冲突处理规则见
+[`docs/guides/GIT_SYNC_GUIDE.md`](docs/guides/GIT_SYNC_GUIDE.md)。
+
 ## 数据与任务约定
 
 - 数据：`../dataset/mitbih_master/mitbih_master_30s.npz`
