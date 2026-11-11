@@ -16,17 +16,88 @@
 6. **不要强制推送 `main`。** 禁止使用 `git push --force` 或 `git push -f`。
 7. **遇到冲突先停止。** 尤其不要尝试手工合并模型权重、NPZ 或 H5 文件。
 
-## 二、实验室电脑首次配置
+## 二、实验室电脑固定路径与首次配置
 
-先安装 Git 和 Git LFS，然后在 PowerShell 中执行：
+实验室电脑统一使用以下路径，不要把项目克隆到其他目录：
+
+```text
+D:\CGY\
+├─ MIT-BIH-2class\
+│  ├─ configs\
+│  ├─ features\
+│  ├─ runs\
+│  └─ ...
+├─ dataset\
+│  ├─ mitbih_master\
+│  │  ├─ mitbih_master_30s.npz
+│  │  └─ splits\
+│  └─ mit-bih-polysomnographic-database-1.0.0\
+└─ EDR\
+```
+
+各路径的用途如下：
+
+| 内容 | 实验室电脑绝对路径 |
+| --- | --- |
+| 项目根目录 | `D:\CGY\MIT-BIH-2class` |
+| 主数据文件 | `D:\CGY\dataset\mitbih_master\mitbih_master_30s.npz` |
+| 受试者级划分 | `D:\CGY\dataset\mitbih_master\splits` |
+| 原始 MIT-BIH 数据 | `D:\CGY\dataset\mit-bih-polysomnographic-database-1.0.0` |
+| EDR 仓库 | `D:\CGY\EDR` |
+| 实验输出 | `D:\CGY\MIT-BIH-2class\runs` |
+
+配置中的 `../dataset/...` 会以项目根目录为基准解析到 `D:\CGY\dataset\...`，
+`output_root: runs` 会解析到项目内的 `D:\CGY\MIT-BIH-2class\runs`。当前目录布局
+与代码的相对路径规则完全一致，不需要为实验室电脑修改 YAML 中的数据路径。
+
+首次使用前，在 PowerShell 中检查必要路径：
+
+```powershell
+$RequiredPaths = @(
+    'D:\CGY\MIT-BIH-2class',
+    'D:\CGY\dataset\mitbih_master\mitbih_master_30s.npz',
+    'D:\CGY\dataset\mitbih_master\splits',
+    'D:\CGY\dataset\mit-bih-polysomnographic-database-1.0.0',
+    'D:\CGY\EDR'
+)
+
+$RequiredPaths | ForEach-Object {
+    "{0} -> {1}" -f $_, (Test-Path -LiteralPath $_)
+}
+```
+
+项目目录和主数据文件是常规训练的基础要求。`splits` 用于受试者级配置；原始 MIT-BIH
+目录和 EDR 仓库主要用于重新提取扩展特征。运行某项任务前，其依赖路径必须显示 `True`。
+
+先安装 Git 和 Git LFS。截图中 `D:\CGY\MIT-BIH-2class` 已经存在，因此不要再次直接
+执行 `git clone`；先在 PowerShell 中检查它是否为本仓库：
+
+```powershell
+Set-Location D:\CGY\MIT-BIH-2class
+git rev-parse --show-toplevel
+git remote -v
+```
+
+正确结果应显示项目根目录和
+`https://github.com/gyChen-3725/MIT-BIH-2class.git`。确认正确后执行：
 
 ```powershell
 git lfs install
-git clone --recurse-submodules https://github.com/gyChen-3725/MIT-BIH-2class.git
-cd MIT-BIH-2class
+git pull --rebase
 git lfs pull
 git submodule update --init --recursive
+git config pull.rebase true
+git config fetch.prune true
+```
 
+如果现有目录不是 Git 仓库，不要直接覆盖。先把它改名备份，再执行：
+
+```powershell
+Set-Location D:\CGY
+git lfs install
+git clone --recurse-submodules https://github.com/gyChen-3725/MIT-BIH-2class.git
+Set-Location D:\CGY\MIT-BIH-2class
+git lfs pull
 git config pull.rebase true
 git config fetch.prune true
 ```
@@ -46,6 +117,7 @@ git submodule status
 进入仓库后先执行：
 
 ```powershell
+Set-Location D:\CGY\MIT-BIH-2class
 git status
 git pull --rebase
 git lfs pull

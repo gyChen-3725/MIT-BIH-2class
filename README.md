@@ -30,7 +30,9 @@ BAFNet 基于 Apnea-ECG 的原流程复现单独放在
 代码、配置和实验输出通过 GitHub 与 Git LFS 在两台电脑之间同步。开始工作前必须拉取，
 结束工作后必须提交并推送；两台电脑不得同时写入同一个实验目录。首次配置、实验命名、
 日常命令和冲突处理规则见
-[`docs/guides/GIT_SYNC_GUIDE.md`](docs/guides/GIT_SYNC_GUIDE.md)。
+[`docs/guides/GIT_SYNC_GUIDE.md`](docs/guides/GIT_SYNC_GUIDE.md)。实验室电脑固定使用项目路径
+`D:\CGY\MIT-BIH-2class`，数据与 EDR 分别位于同级的 `D:\CGY\dataset` 和
+`D:\CGY\EDR`。
 
 ## 数据与任务约定
 
