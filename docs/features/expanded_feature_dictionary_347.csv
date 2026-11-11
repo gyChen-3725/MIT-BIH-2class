@@ -1,0 +1,348 @@
+﻿index,feature,source,category,definition,unit,context
+0,hrv.beat_count,HRV,心率变异性,当前30秒全部已标注心搏数量,次,30秒
+1,hrv.nn_interval_count,HRV,心率变异性,由连续正常心搏形成且位于0.3–2秒的NN间期数量,个,30秒
+2,hrv.nn_valid_fraction,HRV,心率变异性,有效NN间期占所有相邻心搏间期的比例,0–1,30秒
+3,hrv.mean_nn_seconds,HRV,心率变异性,有效NN间期均值,秒,30秒
+4,hrv.sdnn_seconds,HRV,心率变异性,有效NN间期样本标准差,秒,30秒
+5,hrv.rmssd_seconds,HRV,心率变异性,连续有效NN间期差值的均方根,秒,30秒
+6,hrv.pnn50_fraction,HRV,心率变异性,相邻NN间期差绝对值超过50 ms的比例,0–1,30秒
+7,hrv.mean_heart_rate_bpm,HRV,心率变异性,60除以平均NN间期,次/分钟,30秒
+8,am_area.resp_rms,am_area,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+9,am_area.resp_peak_to_peak,am_area,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+10,am_area.resp_zero_crossings_per_second,am_area,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+11,am_area.dominant_rate_bpm,am_area,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+12,am_area.spectral_centroid_bpm,am_area,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+13,am_area.log_respiratory_band_power,am_area,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+14,am_area.spectral_entropy,am_area,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+15,am_area.spectral_peak_fraction,am_area,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+16,am_area.log_low_high_band_power_ratio,am_area,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+17,am_area.autocorr_rate_bpm,am_area,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+18,am_area.autocorr_peak_strength,am_area,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+19,am_area.cycle_rate_bpm,am_area,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+20,am_area.cycle_interval_cv,am_area,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+21,am_area.envelope_cv,am_area,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+22,am_area.envelope_modulation_depth,am_area,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+23,am_area.envelope_first_last_log_ratio,am_area,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+24,am_area.envelope_slope_per_second,am_area,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+25,am_area.log_baseline_median_ratio,am_area,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+26,am_area.log_baseline_q10_ratio,am_area,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+27,am_area.log_baseline_min10_mean_ratio,am_area,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+28,am_area.minimum_10s_position_fraction,am_area,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+29,am_area.below_baseline_075_fraction,am_area,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+30,am_area.below_baseline_075_longest_seconds,am_area,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+31,am_area.below_baseline_050_fraction,am_area,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+32,am_area.below_baseline_050_longest_seconds,am_area,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+33,am_qr.resp_rms,am_qr,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+34,am_qr.resp_peak_to_peak,am_qr,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+35,am_qr.resp_zero_crossings_per_second,am_qr,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+36,am_qr.dominant_rate_bpm,am_qr,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+37,am_qr.spectral_centroid_bpm,am_qr,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+38,am_qr.log_respiratory_band_power,am_qr,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+39,am_qr.spectral_entropy,am_qr,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+40,am_qr.spectral_peak_fraction,am_qr,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+41,am_qr.log_low_high_band_power_ratio,am_qr,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+42,am_qr.autocorr_rate_bpm,am_qr,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+43,am_qr.autocorr_peak_strength,am_qr,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+44,am_qr.cycle_rate_bpm,am_qr,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+45,am_qr.cycle_interval_cv,am_qr,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+46,am_qr.envelope_cv,am_qr,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+47,am_qr.envelope_modulation_depth,am_qr,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+48,am_qr.envelope_first_last_log_ratio,am_qr,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+49,am_qr.envelope_slope_per_second,am_qr,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+50,am_qr.log_baseline_median_ratio,am_qr,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+51,am_qr.log_baseline_q10_ratio,am_qr,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+52,am_qr.log_baseline_min10_mean_ratio,am_qr,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+53,am_qr.minimum_10s_position_fraction,am_qr,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+54,am_qr.below_baseline_075_fraction,am_qr,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+55,am_qr.below_baseline_075_longest_seconds,am_qr,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+56,am_qr.below_baseline_050_fraction,am_qr,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+57,am_qr.below_baseline_050_longest_seconds,am_qr,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+58,am_r.resp_rms,am_r,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+59,am_r.resp_peak_to_peak,am_r,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+60,am_r.resp_zero_crossings_per_second,am_r,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+61,am_r.dominant_rate_bpm,am_r,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+62,am_r.spectral_centroid_bpm,am_r,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+63,am_r.log_respiratory_band_power,am_r,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+64,am_r.spectral_entropy,am_r,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+65,am_r.spectral_peak_fraction,am_r,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+66,am_r.log_low_high_band_power_ratio,am_r,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+67,am_r.autocorr_rate_bpm,am_r,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+68,am_r.autocorr_peak_strength,am_r,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+69,am_r.cycle_rate_bpm,am_r,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+70,am_r.cycle_interval_cv,am_r,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+71,am_r.envelope_cv,am_r,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+72,am_r.envelope_modulation_depth,am_r,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+73,am_r.envelope_first_last_log_ratio,am_r,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+74,am_r.envelope_slope_per_second,am_r,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+75,am_r.log_baseline_median_ratio,am_r,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+76,am_r.log_baseline_q10_ratio,am_r,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+77,am_r.log_baseline_min10_mean_ratio,am_r,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+78,am_r.minimum_10s_position_fraction,am_r,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+79,am_r.below_baseline_075_fraction,am_r,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+80,am_r.below_baseline_075_longest_seconds,am_r,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+81,am_r.below_baseline_050_fraction,am_r,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+82,am_r.below_baseline_050_longest_seconds,am_r,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+83,am_q.resp_rms,am_q,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+84,am_q.resp_peak_to_peak,am_q,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+85,am_q.resp_zero_crossings_per_second,am_q,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+86,am_q.dominant_rate_bpm,am_q,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+87,am_q.spectral_centroid_bpm,am_q,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+88,am_q.log_respiratory_band_power,am_q,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+89,am_q.spectral_entropy,am_q,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+90,am_q.spectral_peak_fraction,am_q,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+91,am_q.log_low_high_band_power_ratio,am_q,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+92,am_q.autocorr_rate_bpm,am_q,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+93,am_q.autocorr_peak_strength,am_q,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+94,am_q.cycle_rate_bpm,am_q,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+95,am_q.cycle_interval_cv,am_q,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+96,am_q.envelope_cv,am_q,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+97,am_q.envelope_modulation_depth,am_q,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+98,am_q.envelope_first_last_log_ratio,am_q,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+99,am_q.envelope_slope_per_second,am_q,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+100,am_q.log_baseline_median_ratio,am_q,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+101,am_q.log_baseline_q10_ratio,am_q,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+102,am_q.log_baseline_min10_mean_ratio,am_q,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+103,am_q.minimum_10s_position_fraction,am_q,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+104,am_q.below_baseline_075_fraction,am_q,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+105,am_q.below_baseline_075_longest_seconds,am_q,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+106,am_q.below_baseline_050_fraction,am_q,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+107,am_q.below_baseline_050_longest_seconds,am_q,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+108,sm_angle.resp_rms,sm_angle,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+109,sm_angle.resp_peak_to_peak,sm_angle,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+110,sm_angle.resp_zero_crossings_per_second,sm_angle,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+111,sm_angle.dominant_rate_bpm,sm_angle,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+112,sm_angle.spectral_centroid_bpm,sm_angle,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+113,sm_angle.log_respiratory_band_power,sm_angle,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+114,sm_angle.spectral_entropy,sm_angle,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+115,sm_angle.spectral_peak_fraction,sm_angle,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+116,sm_angle.log_low_high_band_power_ratio,sm_angle,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+117,sm_angle.autocorr_rate_bpm,sm_angle,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+118,sm_angle.autocorr_peak_strength,sm_angle,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+119,sm_angle.cycle_rate_bpm,sm_angle,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+120,sm_angle.cycle_interval_cv,sm_angle,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+121,sm_angle.envelope_cv,sm_angle,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+122,sm_angle.envelope_modulation_depth,sm_angle,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+123,sm_angle.envelope_first_last_log_ratio,sm_angle,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+124,sm_angle.envelope_slope_per_second,sm_angle,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+125,sm_angle.log_baseline_median_ratio,sm_angle,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+126,sm_angle.log_baseline_q10_ratio,sm_angle,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+127,sm_angle.log_baseline_min10_mean_ratio,sm_angle,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+128,sm_angle.minimum_10s_position_fraction,sm_angle,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+129,sm_angle.below_baseline_075_fraction,sm_angle,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+130,sm_angle.below_baseline_075_longest_seconds,sm_angle,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+131,sm_angle.below_baseline_050_fraction,sm_angle,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+132,sm_angle.below_baseline_050_longest_seconds,sm_angle,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+133,sm_qr.resp_rms,sm_qr,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+134,sm_qr.resp_peak_to_peak,sm_qr,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+135,sm_qr.resp_zero_crossings_per_second,sm_qr,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+136,sm_qr.dominant_rate_bpm,sm_qr,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+137,sm_qr.spectral_centroid_bpm,sm_qr,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+138,sm_qr.log_respiratory_band_power,sm_qr,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+139,sm_qr.spectral_entropy,sm_qr,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+140,sm_qr.spectral_peak_fraction,sm_qr,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+141,sm_qr.log_low_high_band_power_ratio,sm_qr,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+142,sm_qr.autocorr_rate_bpm,sm_qr,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+143,sm_qr.autocorr_peak_strength,sm_qr,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+144,sm_qr.cycle_rate_bpm,sm_qr,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+145,sm_qr.cycle_interval_cv,sm_qr,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+146,sm_qr.envelope_cv,sm_qr,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+147,sm_qr.envelope_modulation_depth,sm_qr,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+148,sm_qr.envelope_first_last_log_ratio,sm_qr,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+149,sm_qr.envelope_slope_per_second,sm_qr,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+150,sm_qr.log_baseline_median_ratio,sm_qr,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+151,sm_qr.log_baseline_q10_ratio,sm_qr,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+152,sm_qr.log_baseline_min10_mean_ratio,sm_qr,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+153,sm_qr.minimum_10s_position_fraction,sm_qr,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+154,sm_qr.below_baseline_075_fraction,sm_qr,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+155,sm_qr.below_baseline_075_longest_seconds,sm_qr,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+156,sm_qr.below_baseline_050_fraction,sm_qr,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+157,sm_qr.below_baseline_050_longest_seconds,sm_qr,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+158,sm_rs.resp_rms,sm_rs,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+159,sm_rs.resp_peak_to_peak,sm_rs,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+160,sm_rs.resp_zero_crossings_per_second,sm_rs,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+161,sm_rs.dominant_rate_bpm,sm_rs,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+162,sm_rs.spectral_centroid_bpm,sm_rs,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+163,sm_rs.log_respiratory_band_power,sm_rs,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+164,sm_rs.spectral_entropy,sm_rs,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+165,sm_rs.spectral_peak_fraction,sm_rs,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+166,sm_rs.log_low_high_band_power_ratio,sm_rs,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+167,sm_rs.autocorr_rate_bpm,sm_rs,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+168,sm_rs.autocorr_peak_strength,sm_rs,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+169,sm_rs.cycle_rate_bpm,sm_rs,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+170,sm_rs.cycle_interval_cv,sm_rs,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+171,sm_rs.envelope_cv,sm_rs,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+172,sm_rs.envelope_modulation_depth,sm_rs,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+173,sm_rs.envelope_first_last_log_ratio,sm_rs,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+174,sm_rs.envelope_slope_per_second,sm_rs,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+175,sm_rs.log_baseline_median_ratio,sm_rs,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+176,sm_rs.log_baseline_q10_ratio,sm_rs,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+177,sm_rs.log_baseline_min10_mean_ratio,sm_rs,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+178,sm_rs.minimum_10s_position_fraction,sm_rs,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+179,sm_rs.below_baseline_075_fraction,sm_rs,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+180,sm_rs.below_baseline_075_longest_seconds,sm_rs,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+181,sm_rs.below_baseline_050_fraction,sm_rs,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+182,sm_rs.below_baseline_050_longest_seconds,sm_rs,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+183,fm_qs.resp_rms,fm_qs,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+184,fm_qs.resp_peak_to_peak,fm_qs,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+185,fm_qs.resp_zero_crossings_per_second,fm_qs,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+186,fm_qs.dominant_rate_bpm,fm_qs,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+187,fm_qs.spectral_centroid_bpm,fm_qs,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+188,fm_qs.log_respiratory_band_power,fm_qs,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+189,fm_qs.spectral_entropy,fm_qs,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+190,fm_qs.spectral_peak_fraction,fm_qs,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+191,fm_qs.log_low_high_band_power_ratio,fm_qs,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+192,fm_qs.autocorr_rate_bpm,fm_qs,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+193,fm_qs.autocorr_peak_strength,fm_qs,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+194,fm_qs.cycle_rate_bpm,fm_qs,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+195,fm_qs.cycle_interval_cv,fm_qs,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+196,fm_qs.envelope_cv,fm_qs,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+197,fm_qs.envelope_modulation_depth,fm_qs,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+198,fm_qs.envelope_first_last_log_ratio,fm_qs,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+199,fm_qs.envelope_slope_per_second,fm_qs,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+200,fm_qs.log_baseline_median_ratio,fm_qs,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+201,fm_qs.log_baseline_q10_ratio,fm_qs,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+202,fm_qs.log_baseline_min10_mean_ratio,fm_qs,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+203,fm_qs.minimum_10s_position_fraction,fm_qs,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+204,fm_qs.below_baseline_075_fraction,fm_qs,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+205,fm_qs.below_baseline_075_longest_seconds,fm_qs,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+206,fm_qs.below_baseline_050_fraction,fm_qs,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+207,fm_qs.below_baseline_050_longest_seconds,fm_qs,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+208,fm_rr.resp_rms,fm_rr,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+209,fm_rr.resp_peak_to_peak,fm_rr,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+210,fm_rr.resp_zero_crossings_per_second,fm_rr,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+211,fm_rr.dominant_rate_bpm,fm_rr,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+212,fm_rr.spectral_centroid_bpm,fm_rr,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+213,fm_rr.log_respiratory_band_power,fm_rr,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+214,fm_rr.spectral_entropy,fm_rr,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+215,fm_rr.spectral_peak_fraction,fm_rr,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+216,fm_rr.log_low_high_band_power_ratio,fm_rr,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+217,fm_rr.autocorr_rate_bpm,fm_rr,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+218,fm_rr.autocorr_peak_strength,fm_rr,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+219,fm_rr.cycle_rate_bpm,fm_rr,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+220,fm_rr.cycle_interval_cv,fm_rr,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+221,fm_rr.envelope_cv,fm_rr,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+222,fm_rr.envelope_modulation_depth,fm_rr,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+223,fm_rr.envelope_first_last_log_ratio,fm_rr,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+224,fm_rr.envelope_slope_per_second,fm_rr,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+225,fm_rr.log_baseline_median_ratio,fm_rr,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+226,fm_rr.log_baseline_q10_ratio,fm_rr,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+227,fm_rr.log_baseline_min10_mean_ratio,fm_rr,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+228,fm_rr.minimum_10s_position_fraction,fm_rr,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+229,fm_rr.below_baseline_075_fraction,fm_rr,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+230,fm_rr.below_baseline_075_longest_seconds,fm_rr,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+231,fm_rr.below_baseline_050_fraction,fm_rr,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+232,fm_rr.below_baseline_050_longest_seconds,fm_rr,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+233,bm_qrs.resp_rms,bm_qrs,resp,当前30秒带通EDR的均方根,EDR单位,30秒
+234,bm_qrs.resp_peak_to_peak,bm_qrs,resp,当前30秒带通EDR最大值减最小值,EDR单位,30秒
+235,bm_qrs.resp_zero_crossings_per_second,bm_qrs,resp,带通EDR符号变化次数除以30秒,次/秒,30秒
+236,bm_qrs.dominant_rate_bpm,bm_qrs,dominant,Welch谱在0.08–0.5 Hz内最大功率频率乘60,次/分钟,30秒
+237,bm_qrs.spectral_centroid_bpm,bm_qrs,spectral,呼吸频带内功率加权平均频率乘60,次/分钟,30秒
+238,bm_qrs.log_respiratory_band_power,bm_qrs,log,0.08–0.5 Hz功率积分的自然对数,对数功率,30秒
+239,bm_qrs.spectral_entropy,bm_qrs,spectral,呼吸频带归一化功率的归一化Shannon熵,0–1,30秒
+240,bm_qrs.spectral_peak_fraction,bm_qrs,spectral,呼吸频带最大谱点功率占总功率比例,0–1,30秒
+241,bm_qrs.log_low_high_band_power_ratio,bm_qrs,log,0.08–0.2 Hz功率与0.2–0.5 Hz功率比值的自然对数,无量纲,30秒
+242,bm_qrs.autocorr_rate_bpm,bm_qrs,autocorr,2–10秒延迟范围内最大自相关峰对应呼吸率,次/分钟,30秒
+243,bm_qrs.autocorr_peak_strength,bm_qrs,autocorr,所选延迟处自相关除以零延迟自相关,无量纲,30秒
+244,bm_qrs.cycle_rate_bpm,bm_qrs,cycle,EDR峰间期均值换算的呼吸率；至少检测3个峰,次/分钟,30秒
+245,bm_qrs.cycle_interval_cv,bm_qrs,cycle,EDR峰间期标准差除以均值,无量纲,30秒
+246,bm_qrs.envelope_cv,bm_qrs,envelope,Hilbert包络标准差除以包络均值,无量纲,30秒
+247,bm_qrs.envelope_modulation_depth,bm_qrs,envelope,包络(q90-q10)/(q90+q10),无量纲,30秒
+248,bm_qrs.envelope_first_last_log_ratio,bm_qrs,envelope,末10秒包络均值与首10秒包络均值比值的自然对数,无量纲,30秒
+249,bm_qrs.envelope_slope_per_second,bm_qrs,envelope,包络除以均值后对时间的一阶线性回归斜率,1/秒,30秒
+250,bm_qrs.log_baseline_median_ratio,bm_qrs,log,当前包络相对前120秒包络q90基线的中位数比值取自然对数,无量纲,30秒+前120秒
+251,bm_qrs.log_baseline_q10_ratio,bm_qrs,log,当前包络相对前120秒q90基线的10%分位比值取自然对数,无量纲,30秒+前120秒
+252,bm_qrs.log_baseline_min10_mean_ratio,bm_qrs,log,当前窗口最低连续10秒平均包络相对前120秒q90基线的比值取自然对数,无量纲,30秒+前120秒
+253,bm_qrs.minimum_10s_position_fraction,bm_qrs,minimum,最低连续10秒区间中心在30秒窗口内的相对位置,0–1,30秒+前120秒
+254,bm_qrs.below_baseline_075_fraction,bm_qrs,below,包络低于前120秒q90基线75%的采样点比例,0–1,30秒+前120秒
+255,bm_qrs.below_baseline_075_longest_seconds,bm_qrs,below,包络连续低于基线75%的最长持续时间,秒,30秒+前120秒
+256,bm_qrs.below_baseline_050_fraction,bm_qrs,below,包络低于前120秒q90基线50%的采样点比例,0–1,30秒+前120秒
+257,bm_qrs.below_baseline_050_longest_seconds,bm_qrs,below,包络连续低于基线50%的最长持续时间,秒,30秒+前120秒
+258,cross.corr_am_qr_am_r,cross,跨EDR关系,AM_QR与AM_R带通波形的Pearson相关,-1–1,30秒
+259,cross.corr_am_qr_sm_angle,cross,跨EDR关系,AM_QR与SM_angle带通波形的Pearson相关,-1–1,30秒
+260,cross.corr_am_r_sm_angle,cross,跨EDR关系,AM_R与SM_angle带通波形的Pearson相关,-1–1,30秒
+261,cross.attenuation_difference_am_r_minus_sm_angle,cross,跨EDR关系,AM_R减SM_angle的最低连续10秒对数基线比,无量纲,30秒+前120秒
+262,cross.attenuation_difference_am_qr_minus_sm_angle,cross,跨EDR关系,AM_QR减SM_angle的最低连续10秒对数基线比,无量纲,30秒+前120秒
+263,advanced_hrv.ectopic_fraction,advanced_hrv,扩展节律/非线性HRV,窗口内非N型心搏占全部心搏的比例,0–1,30秒
+264,advanced_hrv.longest_normal_run_fraction,advanced_hrv,扩展节律/非线性HRV,最长连续N型心搏段占窗口内心搏数的比例,0–1,30秒
+265,advanced_hrv.median_nn_seconds,advanced_hrv,扩展节律/非线性HRV,有效NN间期中位数,秒,30秒
+266,advanced_hrv.iqr_nn_seconds,advanced_hrv,扩展节律/非线性HRV,有效NN间期四分位距,秒,30秒
+267,advanced_hrv.mad_nn_seconds,advanced_hrv,扩展节律/非线性HRV,有效NN间期相对中位数的绝对偏差中位数,秒,30秒
+268,advanced_hrv.min_nn_seconds,advanced_hrv,扩展节律/非线性HRV,有效NN间期最小值,秒,30秒
+269,advanced_hrv.max_nn_seconds,advanced_hrv,扩展节律/非线性HRV,有效NN间期最大值,秒,30秒
+270,advanced_hrv.nn_range_seconds,advanced_hrv,扩展节律/非线性HRV,有效NN间期极差,秒,30秒
+271,advanced_hrv.cvnn,advanced_hrv,扩展节律/非线性HRV,NN间期样本标准差除以均值,无量纲,30秒
+272,advanced_hrv.median_heart_rate_bpm,advanced_hrv,扩展节律/非线性HRV,由有效NN间期换算的瞬时心率中位数,次/分钟,30秒
+273,advanced_hrv.minimum_heart_rate_bpm,advanced_hrv,扩展节律/非线性HRV,有效瞬时心率最小值,次/分钟,30秒
+274,advanced_hrv.maximum_heart_rate_bpm,advanced_hrv,扩展节律/非线性HRV,有效瞬时心率最大值,次/分钟,30秒
+275,advanced_hrv.heart_rate_range_bpm,advanced_hrv,扩展节律/非线性HRV,有效瞬时心率极差,次/分钟,30秒
+276,advanced_hrv.heart_rate_slope_bpm_per_second,advanced_hrv,扩展节律/非线性HRV,瞬时心率对窗口时间的一阶回归斜率,次/分钟/秒,30秒
+277,advanced_hrv.sdsd_seconds,advanced_hrv,扩展节律/非线性HRV,连续有效NN间期差值的样本标准差,秒,30秒
+278,advanced_hrv.pnn20_fraction,advanced_hrv,扩展节律/非线性HRV,相邻NN间期差绝对值超过20 ms的比例,0–1,30秒
+279,advanced_hrv.median_absolute_successive_difference_seconds,advanced_hrv,扩展节律/非线性HRV,相邻NN间期绝对差中位数,秒,30秒
+280,advanced_hrv.successive_difference_iqr_seconds,advanced_hrv,扩展节律/非线性HRV,相邻NN间期差的四分位距,秒,30秒
+281,advanced_hrv.acceleration_fraction,advanced_hrv,扩展节律/非线性HRV,相邻NN间期缩短的比例,0–1,30秒
+282,advanced_hrv.deceleration_fraction,advanced_hrv,扩展节律/非线性HRV,相邻NN间期延长的比例,0–1,30秒
+283,advanced_hrv.inflection_fraction,advanced_hrv,扩展节律/非线性HRV,连续NN变化方向发生反转的比例,0–1,30秒
+284,advanced_hrv.poincare_sd1_seconds,advanced_hrv,扩展节律/非线性HRV,Poincaré图垂直等值线方向的短时变异SD1,秒,30秒
+285,advanced_hrv.poincare_sd2_seconds,advanced_hrv,扩展节律/非线性HRV,Poincaré图沿等值线方向的长期变异SD2,秒,30秒
+286,advanced_hrv.poincare_sd1_sd2_ratio,advanced_hrv,扩展节律/非线性HRV,Poincaré SD1与SD2比值,无量纲,30秒
+287,ecg.finite_fraction,ecg,原始ECG统计与复杂度,原始ECG有限值采样点比例,0–1,30秒
+288,ecg.bandpassed_mean,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG均值,ECG物理单位,30秒
+289,ecg.bandpassed_std,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG样本标准差,ECG物理单位,30秒
+290,ecg.bandpassed_rms,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG均方根,ECG物理单位,30秒
+291,ecg.bandpassed_median,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG中位数,ECG物理单位,30秒
+292,ecg.bandpassed_mad,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG绝对偏差中位数,ECG物理单位,30秒
+293,ecg.bandpassed_iqr,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG四分位距,ECG物理单位,30秒
+294,ecg.bandpassed_q05,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG的5%分位数,ECG物理单位,30秒
+295,ecg.bandpassed_q95,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG的95%分位数,ECG物理单位,30秒
+296,ecg.bandpassed_peak_to_peak,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG峰峰值,ECG物理单位,30秒
+297,ecg.bandpassed_skewness,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG偏度,无量纲,30秒
+298,ecg.bandpassed_kurtosis,ecg,原始ECG统计与复杂度,0.5–35 Hz ECG Fisher峰度,无量纲,30秒
+299,ecg.line_length_per_second,ecg,原始ECG统计与复杂度,相邻ECG差绝对值总和除以30秒,ECG物理单位/秒,30秒
+300,ecg.first_difference_rms,ecg,原始ECG统计与复杂度,ECG一阶差分均方根,ECG物理单位,30秒
+301,ecg.second_difference_rms,ecg,原始ECG统计与复杂度,ECG二阶差分均方根,ECG物理单位,30秒
+302,ecg.zero_crossings_per_second,ecg,原始ECG统计与复杂度,带通ECG每秒过零次数,次/秒,30秒
+303,ecg.hjorth_mobility,ecg,原始ECG统计与复杂度,一阶差分方差与信号方差比值的平方根,无量纲,30秒
+304,ecg.hjorth_complexity,ecg,原始ECG统计与复杂度,一阶差分活动度与原信号活动度之比,无量纲,30秒
+305,ecg.histogram_entropy,ecg,原始ECG统计与复杂度,32箱幅值直方图的归一化Shannon熵,0–1,30秒
+306,ecg.permutation_entropy_order3,ecg,原始ECG统计与复杂度,50 Hz ECG的三阶归一化排列熵,0–1,30秒
+307,ecg.log_total_power_0p5_35,ecg,原始ECG统计与复杂度,0.5–35 Hz总功率自然对数,对数功率,30秒
+308,ecg.log_power_0p5_5,ecg,原始ECG统计与复杂度,0.5–5 Hz功率自然对数,对数功率,30秒
+309,ecg.log_power_5_15,ecg,原始ECG统计与复杂度,5–15 Hz功率自然对数,对数功率,30秒
+310,ecg.log_power_15_35,ecg,原始ECG统计与复杂度,15–35 Hz功率自然对数,对数功率,30秒
+311,ecg.relative_power_0p5_5,ecg,原始ECG统计与复杂度,0.5–5 Hz功率占0.5–35 Hz总功率比例,0–1,30秒
+312,ecg.relative_power_5_15,ecg,原始ECG统计与复杂度,5–15 Hz功率占0.5–35 Hz总功率比例,0–1,30秒
+313,ecg.relative_power_15_35,ecg,原始ECG统计与复杂度,15–35 Hz功率占0.5–35 Hz总功率比例,0–1,30秒
+314,ecg.spectral_centroid_hz,ecg,原始ECG统计与复杂度,0.5–35 Hz功率谱质心,Hz,30秒
+315,ecg.spectral_entropy,ecg,原始ECG统计与复杂度,0.5–35 Hz归一化功率谱熵,0–1,30秒
+316,ecg.spectral_edge_90_hz,ecg,原始ECG统计与复杂度,累计功率达到90%的频率,Hz,30秒
+317,ecg.dominant_frequency_hz,ecg,原始ECG统计与复杂度,0.5–35 Hz最大谱功率频率,Hz,30秒
+318,ecg.baseline_wander_rms,ecg,原始ECG统计与复杂度,0.5 Hz以下基线漂移均方根,ECG物理单位,30秒
+319,ecg.baseline_wander_fraction,ecg,原始ECG统计与复杂度,基线漂移能量占基线与带通能量之和的比例,0–1,30秒
+320,ecg.flatline_fraction,ecg,原始ECG统计与复杂度,一阶差分低于相对阈值的采样点比例,0–1,30秒
+321,qrs.valid_qrs_count,qrs,QRS形态分布,窗口内具有有效Q/R/S定位的正常QRS数量,个,30秒
+322,qrs.valid_qrs_fraction,qrs,QRS形态分布,有效QRS占窗口内正常心搏的比例,0–1,30秒
+323,qrs.qrs_duration_median_seconds,qrs,QRS形态分布,窗口内正常心搏Q至S时限的中位数,秒,30秒
+324,qrs.qrs_duration_iqr_seconds,qrs,QRS形态分布,窗口内正常心搏Q至S时限的四分位距,秒,30秒
+325,qrs.qrs_duration_mad_seconds,qrs,QRS形态分布,窗口内正常心搏Q至S时限的绝对偏差中位数,秒,30秒
+326,qrs.qr_duration_median_seconds,qrs,QRS形态分布,窗口内正常心搏Q至R时限的中位数,秒,30秒
+327,qrs.rs_duration_median_seconds,qrs,QRS形态分布,窗口内正常心搏R至S时限的中位数,秒,30秒
+328,qrs.r_amplitude_median,qrs,QRS形态分布,窗口内正常心搏极性校正R点幅度的中位数,ECG物理单位,30秒
+329,qrs.r_amplitude_iqr,qrs,QRS形态分布,窗口内正常心搏极性校正R点幅度的四分位距,ECG物理单位,30秒
+330,qrs.r_amplitude_mad,qrs,QRS形态分布,窗口内正常心搏极性校正R点幅度的绝对偏差中位数,ECG物理单位,30秒
+331,qrs.q_amplitude_median,qrs,QRS形态分布,窗口内正常心搏极性校正Q点幅度的中位数,ECG物理单位,30秒
+332,qrs.s_amplitude_median,qrs,QRS形态分布,窗口内正常心搏极性校正S点幅度的中位数,ECG物理单位,30秒
+333,qrs.qr_amplitude_median,qrs,QRS形态分布,窗口内正常心搏R点减Q点幅度的中位数,ECG物理单位,30秒
+334,qrs.qr_amplitude_iqr,qrs,QRS形态分布,窗口内正常心搏R点减Q点幅度的四分位距,ECG物理单位,30秒
+335,qrs.rs_amplitude_median,qrs,QRS形态分布,窗口内正常心搏R点减S点幅度的中位数,ECG物理单位,30秒
+336,qrs.rs_amplitude_iqr,qrs,QRS形态分布,窗口内正常心搏R点减S点幅度的四分位距,ECG物理单位,30秒
+337,qrs.qrs_peak_to_peak_median,qrs,QRS形态分布,窗口内正常心搏QRS片段峰峰值的中位数,ECG物理单位,30秒
+338,qrs.qrs_peak_to_peak_iqr,qrs,QRS形态分布,窗口内正常心搏QRS片段峰峰值的四分位距,ECG物理单位,30秒
+339,qrs.qrs_area_median,qrs,QRS形态分布,窗口内正常心搏QRS相对Q-S连线的绝对面积的中位数,ECG物理单位×秒,30秒
+340,qrs.qrs_area_iqr,qrs,QRS形态分布,窗口内正常心搏QRS相对Q-S连线的绝对面积的四分位距,ECG物理单位×秒,30秒
+341,qrs.qrs_energy_median,qrs,QRS形态分布,窗口内正常心搏QRS片段均方能量的中位数,ECG物理单位²,30秒
+342,qrs.qrs_energy_iqr,qrs,QRS形态分布,窗口内正常心搏QRS片段均方能量的四分位距,ECG物理单位²,30秒
+343,qrs.qr_slope_median,qrs,QRS形态分布,窗口内正常心搏Q-R段最大上升斜率的中位数,ECG物理单位/秒,30秒
+344,qrs.qr_slope_iqr,qrs,QRS形态分布,窗口内正常心搏Q-R段最大上升斜率的四分位距,ECG物理单位/秒,30秒
+345,qrs.rs_slope_median,qrs,QRS形态分布,窗口内正常心搏R-S段最大下降斜率绝对值的中位数,ECG物理单位/秒,30秒
+346,qrs.rs_slope_iqr,qrs,QRS形态分布,窗口内正常心搏R-S段最大下降斜率绝对值的四分位距,ECG物理单位/秒,30秒

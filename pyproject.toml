@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mitbih-2class-reproduction"
+version = "0.1.0.dev0"
+description = "Minimal, configuration-driven MIT-BIH PSG binary model reproduction scaffold"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+  "numpy",
+  "PyYAML",
+  "scipy",
+  "scikit-learn",
+  "torch",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+plot = ["matplotlib>=3.7"]
+
+[project.scripts]
+mitbih-train = "mitbih_2class.training:cli_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+# upstream/ 是作者原始代码快照；只检查本项目维护的实现。
+extend-exclude = ["upstream"]
+

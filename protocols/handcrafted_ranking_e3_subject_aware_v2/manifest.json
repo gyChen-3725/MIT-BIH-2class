@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "folds": 5,
+  "uses_train_indices_only": true,
+  "uses_validation_or_test_labels": false,
+  "correlation_threshold": 0.95,
+  "maximum_missing_fraction": 0.2,
+  "nonredundant_representative_counts": [
+    235,
+    234,
+    235,
+    235,
+    235
+  ],
+  "candidate_sizes": [
+    64,
+    96,
+    128,
+    160,
+    192,
+    263
+  ]
+}

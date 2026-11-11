@@ -1,0 +1,57 @@
+{
+  "protocol": "E3 epoch-level frozen five-fold",
+  "source_search_dir": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\features\\expanded347\\selection_ml_grid_e3_v1",
+  "source_validation_grid": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\features\\expanded347\\selection_ml_grid_e3_v1\\validation_grid.csv",
+  "feature_path": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\features\\expanded347\\features_30s_expanded.npz",
+  "feature_sha256": "fb4ddf3801aae870c1e47ce985c1e12efc682b08c119fa973883d6dbac829554",
+  "master_path": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\mitbih_master\\mitbih_master_30s.npz",
+  "split_dir": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\protocols\\e3_full_epoch5fold_20260913",
+  "dimension": 64,
+  "seed": 42,
+  "recipe_selection_metric": "validation accuracy",
+  "recipe_tie_breakers": [
+    "macro_f1",
+    "balanced_accuracy",
+    "roc_auc"
+  ],
+  "ranking_fit_rows": "current fold train_indices only",
+  "validation_labels_used_for": "feature_group and selector recipe choice only",
+  "test_labels_used": false,
+  "fold_choices": [
+    {
+      "fold": 0,
+      "feature_group": "fusion3_expanded",
+      "selector": "mrmr",
+      "validation_model": "random_forest",
+      "val_accuracy": 0.8490196078431372
+    },
+    {
+      "fold": 1,
+      "feature_group": "expanded_all",
+      "selector": "l1",
+      "validation_model": "random_forest",
+      "val_accuracy": 0.8312898479646885
+    },
+    {
+      "fold": 2,
+      "feature_group": "expanded_all",
+      "selector": "l1",
+      "validation_model": "hist_gb",
+      "val_accuracy": 0.8352133398724865
+    },
+    {
+      "fold": 3,
+      "feature_group": "non_edr_with_hrv",
+      "selector": "random_forest",
+      "validation_model": "random_forest",
+      "val_accuracy": 0.834232466895537
+    },
+    {
+      "fold": 4,
+      "feature_group": "fusion3_expanded",
+      "selector": "l1",
+      "validation_model": "random_forest",
+      "val_accuracy": 0.8519607843137255
+    }
+  ]
+}

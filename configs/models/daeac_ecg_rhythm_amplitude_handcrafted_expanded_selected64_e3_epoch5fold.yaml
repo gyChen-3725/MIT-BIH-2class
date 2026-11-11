@@ -1,0 +1,40 @@
+# DAEAC四路融合：滤波ECG + RRI/幅度序列 + 每折训练集冻结的64维扩展手工特征。
+# 手工特征来自347维输入；每折具体列可不同，但模型输入宽度统一为64。
+name: daeac_filtered_rhythm_amplitude_handcrafted_expanded_selected64_e3_epoch5fold_2class
+data_path: ../dataset/mitbih_master/mitbih_master_30s.npz
+handcrafted_path: features/expanded347/features_30s_expanded.npz
+handcrafted_selection_dir: protocols/handcrafted_selection_expanded347_e3_grid_k64
+split_dir: protocols/e3_full_epoch5fold_20260913
+split_unit: epoch
+output_root: runs
+
+signal_key: ecg_filtered_rri_r_amp_256_handcrafted_all
+normalization: per_epoch_zscore
+expected_input_length: 7500
+model: daeac
+model_params:
+  base_channels: 16
+  dilations: [1, 6, 12, 18]
+  activation: relu
+  final_activation: relu
+  use_rhythm_amplitude: true
+  use_third_aspp: false
+  use_handcrafted: true
+  handcrafted_dim: 64
+  handcrafted_hidden_dim: 64
+  handcrafted_dropout: 0.2
+labels: [Normal, Apnea]
+
+# 与DAEAC ECG+RRI+幅度基线保持相同训练参数，只增加64维手工特征MLP分支。
+batch_size: 8
+learning_rate: 0.001
+weight_decay: 0.0001
+max_epochs: 120
+early_stopping_patience: 20
+class_weight: balanced
+checkpoint_metric: val_macro_f1
+
+seed: 17
+fold: 0
+num_workers: 0
+device: auto

@@ -1,0 +1,33 @@
+# 仅用于验证数据与训练链路；不是任何论文的正式模型配置。
+name: smoke_cnn_raw_subjectwise_5fold
+# 相对路径均以本项目根目录为基准，指向共享的 MIT-BIH master 数据及冻结划分。
+data_path: ../dataset/mitbih_master/mitbih_master_30s.npz
+split_dir: ../dataset/mitbih_master/splits
+split_unit: subject
+# checkpoint、逐样本预测和指标保存在 runs/<name>/fold_<n>/。
+output_root: runs
+
+# ecg_raw 为 30 秒 × 250 Hz；Normal=0，任意已标注呼吸事件=1。
+signal_key: ecg_raw
+normalization: per_epoch_zscore
+expected_input_length: 7500
+model: smoke_cnn
+# 每篇论文可在自己的配置中填写网络专有参数，由对应模型模块读取。
+model_params: {}
+labels: [Normal, Apnea]
+
+# balanced 权重只使用当前折训练集的类别计数。
+batch_size: 64
+learning_rate: 0.001
+weight_decay: 0.0001
+max_epochs: 30
+# 连续若干 epoch 的验证集 macro F1 未提升时停止训练。
+early_stopping_patience: 7
+class_weight: balanced
+
+# fold 对应 fold_0.json～fold_4.json；auto 优先选 CUDA，否则使用 CPU。
+seed: 17
+fold: 0
+num_workers: 0
+device: auto
+

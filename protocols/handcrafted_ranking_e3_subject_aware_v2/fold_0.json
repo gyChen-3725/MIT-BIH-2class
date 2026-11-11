@@ -1,0 +1,2530 @@
+{
+  "source_feature_count": 263,
+  "ranked_indices": [
+    5,
+    209,
+    6,
+    4,
+    213,
+    52,
+    121,
+    46,
+    51,
+    147,
+    171,
+    152,
+    57,
+    182,
+    159,
+    127,
+    177,
+    71,
+    157,
+    126,
+    82,
+    56,
+    59,
+    76,
+    176,
+    50,
+    81,
+    55,
+    151,
+    132,
+    155,
+    158,
+    43,
+    168,
+    109,
+    75,
+    80,
+    181,
+    68,
+    222,
+    156,
+    115,
+    221,
+    118,
+    40,
+    125,
+    21,
+    175,
+    150,
+    65,
+    134,
+    131,
+    9,
+    164,
+    140,
+    180,
+    165,
+    135,
+    226,
+    143,
+    25,
+    163,
+    214,
+    218,
+    27,
+    58,
+    97,
+    96,
+    114,
+    160,
+    110,
+    18,
+    69,
+    15,
+    39,
+    31,
+    32,
+    144,
+    60,
+    8,
+    26,
+    54,
+    64,
+    260,
+    130,
+    136,
+    139,
+    63,
+    14,
+    215,
+    79,
+    85,
+    227,
+    44,
+    89,
+    154,
+    242,
+    30,
+    42,
+    0,
+    94,
+    62,
+    142,
+    259,
+    169,
+    111,
+    108,
+    179,
+    237,
+    88,
+    87,
+    83,
+    119,
+    86,
+    19,
+    37,
+    161,
+    84,
+    13,
+    35,
+    236,
+    129,
+    45,
+    162,
+    90,
+    235,
+    93,
+    137,
+    102,
+    117,
+    225,
+    61,
+    133,
+    107,
+    220,
+    112,
+    36,
+    232,
+    101,
+    70,
+    67,
+    29,
+    92,
+    28,
+    91,
+    113,
+    167,
+    170,
+    241,
+    23,
+    261,
+    12,
+    205,
+    252,
+    257,
+    138,
+    219,
+    194,
+    247,
+    206,
+    187,
+    212,
+    210,
+    229,
+    230,
+    10,
+    66,
+    98,
+    153,
+    207,
+    17,
+    149,
+    244,
+    120,
+    106,
+    253,
+    16,
+    204,
+    95,
+    11,
+    240,
+    254,
+    185,
+    202,
+    103,
+    201,
+    250,
+    234,
+    116,
+    246,
+    105,
+    145,
+    203,
+    223,
+    183,
+    200,
+    197,
+    198,
+    20,
+    248,
+    189,
+    258,
+    186,
+    262,
+    141,
+    188,
+    78,
+    228,
+    166,
+    104,
+    192,
+    196,
+    191,
+    74,
+    193,
+    128,
+    255,
+    174,
+    48,
+    251,
+    123,
+    217,
+    233,
+    243,
+    211,
+    195,
+    216,
+    184,
+    53,
+    238,
+    2,
+    178,
+    190,
+    245,
+    239,
+    208,
+    47,
+    146,
+    122,
+    172,
+    72,
+    77,
+    34,
+    22,
+    1,
+    33,
+    7,
+    3,
+    231,
+    38,
+    24,
+    99,
+    100,
+    148,
+    256,
+    224,
+    199,
+    249,
+    41,
+    49,
+    124,
+    73,
+    173
+  ],
+  "ranked_names": [
+    "hrv.rmssd_seconds",
+    "fm_rr.resp_peak_to_peak",
+    "hrv.pnn50_fraction",
+    "hrv.sdnn_seconds",
+    "fm_rr.log_respiratory_band_power",
+    "am_qr.log_baseline_min10_mean_ratio",
+    "sm_angle.envelope_cv",
+    "am_qr.envelope_cv",
+    "am_qr.log_baseline_q10_ratio",
+    "sm_qr.envelope_modulation_depth",
+    "sm_rs.envelope_cv",
+    "sm_qr.log_baseline_min10_mean_ratio",
+    "am_qr.below_baseline_050_longest_seconds",
+    "sm_rs.below_baseline_050_longest_seconds",
+    "sm_rs.resp_peak_to_peak",
+    "sm_angle.log_baseline_min10_mean_ratio",
+    "sm_rs.log_baseline_min10_mean_ratio",
+    "am_r.envelope_cv",
+    "sm_qr.below_baseline_050_longest_seconds",
+    "sm_angle.log_baseline_q10_ratio",
+    "am_r.below_baseline_050_longest_seconds",
+    "am_qr.below_baseline_050_fraction",
+    "am_r.resp_peak_to_peak",
+    "am_r.log_baseline_q10_ratio",
+    "sm_rs.log_baseline_q10_ratio",
+    "am_qr.log_baseline_median_ratio",
+    "am_r.below_baseline_050_fraction",
+    "am_qr.below_baseline_075_longest_seconds",
+    "sm_qr.log_baseline_q10_ratio",
+    "sm_angle.below_baseline_050_longest_seconds",
+    "sm_qr.below_baseline_075_longest_seconds",
+    "sm_rs.resp_rms",
+    "am_qr.autocorr_peak_strength",
+    "sm_rs.autocorr_peak_strength",
+    "sm_angle.resp_peak_to_peak",
+    "am_r.log_baseline_median_ratio",
+    "am_r.below_baseline_075_longest_seconds",
+    "sm_rs.below_baseline_050_fraction",
+    "am_r.autocorr_peak_strength",
+    "fm_rr.envelope_modulation_depth",
+    "sm_qr.below_baseline_050_fraction",
+    "sm_angle.spectral_peak_fraction",
+    "fm_rr.envelope_cv",
+    "sm_angle.autocorr_peak_strength",
+    "am_qr.spectral_peak_fraction",
+    "sm_angle.log_baseline_median_ratio",
+    "am_area.envelope_cv",
+    "sm_rs.log_baseline_median_ratio",
+    "sm_qr.log_baseline_median_ratio",
+    "am_r.spectral_peak_fraction",
+    "sm_qr.resp_peak_to_peak",
+    "sm_angle.below_baseline_050_fraction",
+    "am_area.resp_peak_to_peak",
+    "sm_rs.spectral_entropy",
+    "sm_qr.spectral_peak_fraction",
+    "sm_rs.below_baseline_075_longest_seconds",
+    "sm_rs.spectral_peak_fraction",
+    "sm_qr.resp_zero_crossings_per_second",
+    "fm_rr.log_baseline_q10_ratio",
+    "sm_qr.autocorr_peak_strength",
+    "am_area.log_baseline_median_ratio",
+    "sm_rs.log_respiratory_band_power",
+    "fm_rr.spectral_entropy",
+    "fm_rr.autocorr_peak_strength",
+    "am_area.log_baseline_min10_mean_ratio",
+    "am_r.resp_rms",
+    "am_q.envelope_modulation_depth",
+    "am_q.envelope_cv",
+    "sm_angle.spectral_entropy",
+    "sm_rs.resp_zero_crossings_per_second",
+    "sm_angle.resp_zero_crossings_per_second",
+    "am_area.autocorr_peak_strength",
+    "am_r.cycle_rate_bpm",
+    "am_area.spectral_peak_fraction",
+    "am_qr.spectral_entropy",
+    "am_area.below_baseline_050_fraction",
+    "am_area.below_baseline_050_longest_seconds",
+    "sm_qr.cycle_rate_bpm",
+    "am_r.resp_zero_crossings_per_second",
+    "am_area.resp_rms",
+    "am_area.log_baseline_q10_ratio",
+    "am_qr.below_baseline_075_fraction",
+    "am_r.spectral_entropy",
+    "cross.corr_am_r_sm_angle",
+    "sm_angle.below_baseline_075_longest_seconds",
+    "sm_qr.dominant_rate_bpm",
+    "sm_qr.spectral_entropy",
+    "am_r.log_respiratory_band_power",
+    "am_area.spectral_entropy",
+    "fm_rr.spectral_peak_fraction",
+    "am_r.below_baseline_075_fraction",
+    "am_q.resp_zero_crossings_per_second",
+    "fm_rr.log_baseline_min10_mean_ratio",
+    "am_qr.cycle_rate_bpm",
+    "am_q.spectral_entropy",
+    "sm_qr.below_baseline_075_fraction",
+    "bm_qrs.autocorr_rate_bpm",
+    "am_area.below_baseline_075_longest_seconds",
+    "am_qr.autocorr_rate_bpm",
+    "hrv.beat_count",
+    "am_q.cycle_rate_bpm",
+    "am_r.spectral_centroid_bpm",
+    "sm_qr.autocorr_rate_bpm",
+    "cross.corr_am_qr_sm_angle",
+    "sm_rs.cycle_rate_bpm",
+    "sm_angle.dominant_rate_bpm",
+    "sm_angle.resp_rms",
+    "sm_rs.below_baseline_075_fraction",
+    "bm_qrs.spectral_centroid_bpm",
+    "am_q.log_respiratory_band_power",
+    "am_q.spectral_centroid_bpm",
+    "am_q.resp_rms",
+    "sm_angle.cycle_rate_bpm",
+    "am_q.dominant_rate_bpm",
+    "am_area.cycle_rate_bpm",
+    "am_qr.spectral_centroid_bpm",
+    "sm_rs.dominant_rate_bpm",
+    "am_q.resp_peak_to_peak",
+    "am_area.log_respiratory_band_power",
+    "am_qr.resp_zero_crossings_per_second",
+    "bm_qrs.dominant_rate_bpm",
+    "sm_angle.below_baseline_075_fraction",
+    "am_qr.cycle_interval_cv",
+    "sm_rs.spectral_centroid_bpm",
+    "am_q.spectral_peak_fraction",
+    "bm_qrs.resp_zero_crossings_per_second",
+    "am_q.autocorr_peak_strength",
+    "sm_qr.spectral_centroid_bpm",
+    "am_q.log_baseline_min10_mean_ratio",
+    "sm_angle.autocorr_rate_bpm",
+    "fm_rr.log_baseline_median_ratio",
+    "am_r.dominant_rate_bpm",
+    "sm_qr.resp_rms",
+    "am_q.below_baseline_050_longest_seconds",
+    "fm_rr.cycle_interval_cv",
+    "sm_angle.spectral_centroid_bpm",
+    "am_qr.dominant_rate_bpm",
+    "fm_rr.below_baseline_050_longest_seconds",
+    "am_q.log_baseline_q10_ratio",
+    "am_r.cycle_interval_cv",
+    "am_r.autocorr_rate_bpm",
+    "am_area.below_baseline_075_fraction",
+    "am_q.autocorr_rate_bpm",
+    "am_area.minimum_10s_position_fraction",
+    "am_q.log_low_high_band_power_ratio",
+    "sm_angle.log_respiratory_band_power",
+    "sm_rs.autocorr_rate_bpm",
+    "sm_rs.cycle_interval_cv",
+    "bm_qrs.log_low_high_band_power_ratio",
+    "am_area.envelope_first_last_log_ratio",
+    "cross.attenuation_difference_am_r_minus_sm_angle",
+    "am_area.spectral_centroid_bpm",
+    "fm_qs.below_baseline_075_longest_seconds",
+    "bm_qrs.log_baseline_min10_mean_ratio",
+    "bm_qrs.below_baseline_050_longest_seconds",
+    "sm_qr.log_respiratory_band_power",
+    "fm_rr.cycle_rate_bpm",
+    "fm_qs.cycle_rate_bpm",
+    "bm_qrs.envelope_modulation_depth",
+    "fm_qs.below_baseline_050_fraction",
+    "fm_qs.spectral_centroid_bpm",
+    "fm_rr.spectral_centroid_bpm",
+    "fm_rr.resp_zero_crossings_per_second",
+    "fm_rr.below_baseline_075_fraction",
+    "fm_rr.below_baseline_075_longest_seconds",
+    "am_area.resp_zero_crossings_per_second",
+    "am_r.log_low_high_band_power_ratio",
+    "am_q.envelope_first_last_log_ratio",
+    "sm_qr.minimum_10s_position_fraction",
+    "fm_qs.below_baseline_050_longest_seconds",
+    "am_area.autocorr_rate_bpm",
+    "sm_qr.envelope_slope_per_second",
+    "bm_qrs.cycle_rate_bpm",
+    "sm_angle.cycle_interval_cv",
+    "am_q.below_baseline_050_fraction",
+    "bm_qrs.minimum_10s_position_fraction",
+    "am_area.log_low_high_band_power_ratio",
+    "fm_qs.below_baseline_075_fraction",
+    "am_q.cycle_interval_cv",
+    "am_area.dominant_rate_bpm",
+    "bm_qrs.spectral_peak_fraction",
+    "bm_qrs.below_baseline_075_fraction",
+    "fm_qs.resp_zero_crossings_per_second",
+    "fm_qs.log_baseline_min10_mean_ratio",
+    "am_q.minimum_10s_position_fraction",
+    "fm_qs.log_baseline_q10_ratio",
+    "bm_qrs.log_baseline_median_ratio",
+    "bm_qrs.resp_peak_to_peak",
+    "sm_angle.log_low_high_band_power_ratio",
+    "bm_qrs.envelope_cv",
+    "am_q.below_baseline_075_longest_seconds",
+    "sm_qr.cycle_interval_cv",
+    "fm_qs.minimum_10s_position_fraction",
+    "fm_rr.envelope_first_last_log_ratio",
+    "fm_qs.resp_rms",
+    "fm_qs.log_baseline_median_ratio",
+    "fm_qs.envelope_modulation_depth",
+    "fm_qs.envelope_first_last_log_ratio",
+    "am_area.cycle_interval_cv",
+    "bm_qrs.envelope_first_last_log_ratio",
+    "fm_qs.spectral_entropy",
+    "cross.corr_am_qr_am_r",
+    "fm_qs.dominant_rate_bpm",
+    "cross.attenuation_difference_am_qr_minus_sm_angle",
+    "sm_qr.log_low_high_band_power_ratio",
+    "fm_qs.log_respiratory_band_power",
+    "am_r.minimum_10s_position_fraction",
+    "fm_rr.minimum_10s_position_fraction",
+    "sm_rs.log_low_high_band_power_ratio",
+    "am_q.below_baseline_075_fraction",
+    "fm_qs.autocorr_rate_bpm",
+    "fm_qs.envelope_cv",
+    "fm_qs.log_low_high_band_power_ratio",
+    "am_r.envelope_slope_per_second",
+    "fm_qs.autocorr_peak_strength",
+    "sm_angle.minimum_10s_position_fraction",
+    "bm_qrs.below_baseline_075_longest_seconds",
+    "sm_rs.envelope_slope_per_second",
+    "am_qr.envelope_first_last_log_ratio",
+    "bm_qrs.log_baseline_q10_ratio",
+    "sm_angle.envelope_first_last_log_ratio",
+    "fm_rr.autocorr_rate_bpm",
+    "bm_qrs.resp_rms",
+    "bm_qrs.autocorr_peak_strength",
+    "fm_rr.dominant_rate_bpm",
+    "fm_qs.cycle_interval_cv",
+    "fm_rr.log_low_high_band_power_ratio",
+    "fm_qs.resp_peak_to_peak",
+    "am_qr.minimum_10s_position_fraction",
+    "bm_qrs.log_respiratory_band_power",
+    "hrv.nn_valid_fraction",
+    "sm_rs.minimum_10s_position_fraction",
+    "fm_qs.spectral_peak_fraction",
+    "bm_qrs.cycle_interval_cv",
+    "bm_qrs.spectral_entropy",
+    "fm_rr.resp_rms",
+    "am_qr.envelope_modulation_depth",
+    "sm_qr.envelope_cv",
+    "sm_angle.envelope_modulation_depth",
+    "sm_rs.envelope_modulation_depth",
+    "am_r.envelope_modulation_depth",
+    "am_r.log_baseline_min10_mean_ratio",
+    "am_qr.resp_peak_to_peak",
+    "am_area.envelope_modulation_depth",
+    "hrv.nn_interval_count",
+    "am_qr.resp_rms",
+    "hrv.mean_heart_rate_bpm",
+    "hrv.mean_nn_seconds",
+    "fm_rr.below_baseline_050_fraction",
+    "am_qr.log_respiratory_band_power",
+    "am_area.envelope_slope_per_second",
+    "am_q.envelope_slope_per_second",
+    "am_q.log_baseline_median_ratio",
+    "sm_qr.envelope_first_last_log_ratio",
+    "bm_qrs.below_baseline_050_fraction",
+    "fm_rr.envelope_slope_per_second",
+    "fm_qs.envelope_slope_per_second",
+    "bm_qrs.envelope_slope_per_second",
+    "am_qr.log_low_high_band_power_ratio",
+    "am_qr.envelope_slope_per_second",
+    "sm_angle.envelope_slope_per_second",
+    "am_r.envelope_first_last_log_ratio",
+    "sm_rs.envelope_first_last_log_ratio"
+  ],
+  "nonredundant_representative_count": 235,
+  "quality_excluded_indices": [],
+  "redundancy": [
+    {
+      "feature": "fm_rr.resp_rms",
+      "representative": "fm_rr.resp_peak_to_peak",
+      "median_absolute_within_subject_spearman": 0.9572689426476284
+    },
+    {
+      "feature": "am_qr.envelope_modulation_depth",
+      "representative": "am_qr.envelope_cv",
+      "median_absolute_within_subject_spearman": 0.9604358299651489
+    },
+    {
+      "feature": "sm_qr.envelope_cv",
+      "representative": "sm_qr.envelope_modulation_depth",
+      "median_absolute_within_subject_spearman": 0.9601890354574928
+    },
+    {
+      "feature": "sm_angle.envelope_modulation_depth",
+      "representative": "sm_angle.envelope_cv",
+      "median_absolute_within_subject_spearman": 0.9582499455347983
+    },
+    {
+      "feature": "sm_rs.envelope_modulation_depth",
+      "representative": "sm_rs.envelope_cv",
+      "median_absolute_within_subject_spearman": 0.955294052886948
+    },
+    {
+      "feature": "am_r.envelope_modulation_depth",
+      "representative": "am_r.envelope_cv",
+      "median_absolute_within_subject_spearman": 0.9663760046633267
+    },
+    {
+      "feature": "am_r.log_baseline_min10_mean_ratio",
+      "representative": "am_qr.log_baseline_min10_mean_ratio",
+      "median_absolute_within_subject_spearman": 0.9501047768043074
+    },
+    {
+      "feature": "am_qr.resp_peak_to_peak",
+      "representative": "am_r.resp_peak_to_peak",
+      "median_absolute_within_subject_spearman": 0.9599534116903488
+    },
+    {
+      "feature": "am_area.envelope_modulation_depth",
+      "representative": "am_area.envelope_cv",
+      "median_absolute_within_subject_spearman": 0.9564854578513409
+    },
+    {
+      "feature": "hrv.nn_interval_count",
+      "representative": "hrv.beat_count",
+      "median_absolute_within_subject_spearman": 0.9968799212253139
+    },
+    {
+      "feature": "am_qr.resp_rms",
+      "representative": "am_r.resp_rms",
+      "median_absolute_within_subject_spearman": 0.9629721113650311
+    },
+    {
+      "feature": "hrv.mean_heart_rate_bpm",
+      "representative": "hrv.beat_count",
+      "median_absolute_within_subject_spearman": 0.9857095132111049
+    },
+    {
+      "feature": "hrv.mean_nn_seconds",
+      "representative": "hrv.beat_count",
+      "median_absolute_within_subject_spearman": 0.9857095132111049
+    },
+    {
+      "feature": "fm_rr.below_baseline_050_fraction",
+      "representative": "fm_rr.log_baseline_median_ratio",
+      "median_absolute_within_subject_spearman": 0.9595621881944129
+    },
+    {
+      "feature": "am_qr.log_respiratory_band_power",
+      "representative": "am_r.log_respiratory_band_power",
+      "median_absolute_within_subject_spearman": 0.958524265418399
+    },
+    {
+      "feature": "am_area.envelope_slope_per_second",
+      "representative": "am_area.envelope_first_last_log_ratio",
+      "median_absolute_within_subject_spearman": 0.9778410139030121
+    },
+    {
+      "feature": "am_q.envelope_slope_per_second",
+      "representative": "am_q.envelope_first_last_log_ratio",
+      "median_absolute_within_subject_spearman": 0.9789487204426004
+    },
+    {
+      "feature": "am_q.log_baseline_median_ratio",
+      "representative": "am_q.below_baseline_050_fraction",
+      "median_absolute_within_subject_spearman": 0.9553250173382848
+    },
+    {
+      "feature": "sm_qr.envelope_first_last_log_ratio",
+      "representative": "sm_qr.envelope_slope_per_second",
+      "median_absolute_within_subject_spearman": 0.9802762356852287
+    },
+    {
+      "feature": "bm_qrs.below_baseline_050_fraction",
+      "representative": "bm_qrs.log_baseline_median_ratio",
+      "median_absolute_within_subject_spearman": 0.9610354493816995
+    },
+    {
+      "feature": "fm_rr.envelope_slope_per_second",
+      "representative": "fm_rr.envelope_first_last_log_ratio",
+      "median_absolute_within_subject_spearman": 0.9787701641428861
+    },
+    {
+      "feature": "fm_qs.envelope_slope_per_second",
+      "representative": "fm_qs.envelope_first_last_log_ratio",
+      "median_absolute_within_subject_spearman": 0.9728501122356028
+    },
+    {
+      "feature": "bm_qrs.envelope_slope_per_second",
+      "representative": "bm_qrs.envelope_first_last_log_ratio",
+      "median_absolute_within_subject_spearman": 0.9744680355908053
+    },
+    {
+      "feature": "am_qr.log_low_high_band_power_ratio",
+      "representative": "am_r.log_low_high_band_power_ratio",
+      "median_absolute_within_subject_spearman": 0.9604820371687499
+    },
+    {
+      "feature": "am_qr.envelope_slope_per_second",
+      "representative": "am_qr.envelope_first_last_log_ratio",
+      "median_absolute_within_subject_spearman": 0.979128511763552
+    },
+    {
+      "feature": "sm_angle.envelope_slope_per_second",
+      "representative": "sm_angle.envelope_first_last_log_ratio",
+      "median_absolute_within_subject_spearman": 0.9821232117963941
+    },
+    {
+      "feature": "am_r.envelope_first_last_log_ratio",
+      "representative": "am_r.envelope_slope_per_second",
+      "median_absolute_within_subject_spearman": 0.9806106527913108
+    },
+    {
+      "feature": "sm_rs.envelope_first_last_log_ratio",
+      "representative": "sm_rs.envelope_slope_per_second",
+      "median_absolute_within_subject_spearman": 0.9797531171300327
+    }
+  ],
+  "statistics": {
+    "hrv.beat_count": {
+      "subject_aware_score": 0.0918172247828428,
+      "median_within_subject_auc": 0.42858660294667783,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0
+    },
+    "hrv.nn_interval_count": {
+      "subject_aware_score": 0.0918172247828428,
+      "median_within_subject_auc": 0.42858660294667783,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.002779140101356825
+    },
+    "hrv.nn_valid_fraction": {
+      "subject_aware_score": 0.0012315270935960854,
+      "median_within_subject_auc": 0.4987684729064039,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.002779140101356825
+    },
+    "hrv.mean_nn_seconds": {
+      "subject_aware_score": 0.08683224343272504,
+      "median_within_subject_auc": 0.5675361893365639,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.002779140101356825
+    },
+    "hrv.sdnn_seconds": {
+      "subject_aware_score": 0.4530548641831815,
+      "median_within_subject_auc": 0.7265274320915908,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.002779140101356825
+    },
+    "hrv.rmssd_seconds": {
+      "subject_aware_score": 0.504166648890406,
+      "median_within_subject_auc": 0.752083324445203,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.002779140101356825
+    },
+    "hrv.pnn50_fraction": {
+      "subject_aware_score": 0.47202208522650513,
+      "median_within_subject_auc": 0.7360110426132526,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.002779140101356825
+    },
+    "hrv.mean_heart_rate_bpm": {
+      "subject_aware_score": 0.08683224343272511,
+      "median_within_subject_auc": 0.43246381066343603,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.002779140101356825
+    },
+    "am_area.resp_rms": {
+      "subject_aware_score": 0.11938515977110452,
+      "median_within_subject_auc": 0.5928551242664146,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.resp_peak_to_peak": {
+      "subject_aware_score": 0.1580874213888046,
+      "median_within_subject_auc": 0.6006010863383302,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.02691268191268189,
+      "median_within_subject_auc": 0.5235485966735967,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.dominant_rate_bpm": {
+      "subject_aware_score": 0.020144073644673504,
+      "median_within_subject_auc": 0.5176260644390893,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.spectral_centroid_bpm": {
+      "subject_aware_score": 0.03784581946168735,
+      "median_within_subject_auc": 0.5294356373590902,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.log_respiratory_band_power": {
+      "subject_aware_score": 0.07426096472164417,
+      "median_within_subject_auc": 0.5649783441314387,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.spectral_entropy": {
+      "subject_aware_score": 0.11044279451187931,
+      "median_within_subject_auc": 0.5594691970448581,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.spectral_peak_fraction": {
+      "subject_aware_score": 0.12627304887838658,
+      "median_within_subject_auc": 0.4263407214876078,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.02089377547994101,
+      "median_within_subject_auc": 0.5182820535449484,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.autocorr_rate_bpm": {
+      "subject_aware_score": 0.024389929198996057,
+      "median_within_subject_auc": 0.5213411880491216,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.autocorr_peak_strength": {
+      "subject_aware_score": 0.13036528368995434,
+      "median_within_subject_auc": 0.4239535845141933,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.cycle_rate_bpm": {
+      "subject_aware_score": 0.07842662458904434,
+      "median_within_subject_auc": 0.5609984857914789,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.004413928396272637
+    },
+    "am_area.cycle_interval_cv": {
+      "subject_aware_score": 0.010214920046730684,
+      "median_within_subject_auc": 0.5071504440327115,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.004413928396272637
+    },
+    "am_area.envelope_cv": {
+      "subject_aware_score": 0.167300431598876,
+      "median_within_subject_auc": 0.6064639110174666,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.envelope_modulation_depth": {
+      "subject_aware_score": 0.13946281636023722,
+      "median_within_subject_auc": 0.5976239714521661,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.04026897251756788,
+      "median_within_subject_auc": 0.4718117192377025,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.envelope_slope_per_second": {
+      "subject_aware_score": 0.038182263625733084,
+      "median_within_subject_auc": 0.47327241546198684,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_area.log_baseline_median_ratio": {
+      "subject_aware_score": 0.14675344634723786,
+      "median_within_subject_auc": 0.4066114432335759,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_area.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.11937945471116392,
+      "median_within_subject_auc": 0.40714931300242807,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_area.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.13956217503743412,
+      "median_within_subject_auc": 0.4023064774737961,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_area.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.044235450927928736,
+      "median_within_subject_auc": 0.5309648156495501,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_area.below_baseline_075_fraction": {
+      "subject_aware_score": 0.04615955515915109,
+      "median_within_subject_auc": 0.5323116886114058,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_area.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.09532130994237237,
+      "median_within_subject_auc": 0.5667249169596607,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_area.below_baseline_050_fraction": {
+      "subject_aware_score": 0.12496109560328872,
+      "median_within_subject_auc": 0.5874727669223021,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_area.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.12458938401911622,
+      "median_within_subject_auc": 0.5872125688133814,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_qr.resp_rms": {
+      "subject_aware_score": 0.09007666236451205,
+      "median_within_subject_auc": 0.5700596262835094,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.resp_peak_to_peak": {
+      "subject_aware_score": 0.1926194324769408,
+      "median_within_subject_auc": 0.622576002485326,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.07401015369765371,
+      "median_within_subject_auc": 0.5575634528759529,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.dominant_rate_bpm": {
+      "subject_aware_score": 0.05546526718982735,
+      "median_within_subject_auc": 0.5431396522587546,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.spectral_centroid_bpm": {
+      "subject_aware_score": 0.07732111583383906,
+      "median_within_subject_auc": 0.5541247810836873,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.log_respiratory_band_power": {
+      "subject_aware_score": 0.049343246523403037,
+      "median_within_subject_auc": 0.5383780806293135,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.spectral_entropy": {
+      "subject_aware_score": 0.12496772615365197,
+      "median_within_subject_auc": 0.5672903140827357,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.spectral_peak_fraction": {
+      "subject_aware_score": 0.17445513386360448,
+      "median_within_subject_auc": 0.4060626202272899,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.00524472262377107,
+      "median_within_subject_auc": 0.5052447226237711,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.autocorr_rate_bpm": {
+      "subject_aware_score": 0.09210311002258988,
+      "median_within_subject_auc": 0.5586110700143754,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.autocorr_peak_strength": {
+      "subject_aware_score": 0.19457848005335215,
+      "median_within_subject_auc": 0.38649588663554457,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.cycle_rate_bpm": {
+      "subject_aware_score": 0.10047164975113476,
+      "median_within_subject_auc": 0.5639365043870858,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.003923491907797949
+    },
+    "am_qr.cycle_interval_cv": {
+      "subject_aware_score": 0.07042952416864903,
+      "median_within_subject_auc": 0.5616258336475679,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.003923491907797949
+    },
+    "am_qr.envelope_cv": {
+      "subject_aware_score": 0.3099819993216544,
+      "median_within_subject_auc": 0.6669133842501216,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.envelope_modulation_depth": {
+      "subject_aware_score": 0.2985269608567925,
+      "median_within_subject_auc": 0.6607452866151959,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.004401873071227913,
+      "median_within_subject_auc": 0.4955981269287721,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.envelope_slope_per_second": {
+      "subject_aware_score": 0.0041333160083160125,
+      "median_within_subject_auc": 0.495866683991684,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_qr.log_baseline_median_ratio": {
+      "subject_aware_score": 0.21518074806714493,
+      "median_within_subject_auc": 0.3744778969608321,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_qr.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.30142789472226067,
+      "median_within_subject_auc": 0.3376926720726289,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_qr.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.3132135962493104,
+      "median_within_subject_auc": 0.3313465250965252,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_qr.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.0019365316600339988,
+      "median_within_subject_auc": 0.49830553479747025,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_qr.below_baseline_075_fraction": {
+      "subject_aware_score": 0.11933336332257594,
+      "median_within_subject_auc": 0.5759394130234574,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_qr.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.20691883819136886,
+      "median_within_subject_auc": 0.6207026556116318,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_qr.below_baseline_050_fraction": {
+      "subject_aware_score": 0.22484481660259586,
+      "median_within_subject_auc": 0.6311594763515143,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_qr.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.2738525486986603,
+      "median_within_subject_auc": 0.647459064683894,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_r.resp_rms": {
+      "subject_aware_score": 0.13848425639900297,
+      "median_within_subject_auc": 0.5969389794793021,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.resp_peak_to_peak": {
+      "subject_aware_score": 0.2233838473354603,
+      "median_within_subject_auc": 0.6303072442790185,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.12238763488763484,
+      "median_within_subject_auc": 0.5856713444213444,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.dominant_rate_bpm": {
+      "subject_aware_score": 0.06320092070092072,
+      "median_within_subject_auc": 0.5553008056133056,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.spectral_centroid_bpm": {
+      "subject_aware_score": 0.08885810744223496,
+      "median_within_subject_auc": 0.5565460683723313,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.log_respiratory_band_power": {
+      "subject_aware_score": 0.11201155880132818,
+      "median_within_subject_auc": 0.5784080911609297,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.spectral_entropy": {
+      "subject_aware_score": 0.11886928703651625,
+      "median_within_subject_auc": 0.5756440917505103,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.spectral_peak_fraction": {
+      "subject_aware_score": 0.16088436685519528,
+      "median_within_subject_auc": 0.4061507860011361,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.026525196449648646,
+      "median_within_subject_auc": 0.5232095468934426,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.autocorr_rate_bpm": {
+      "subject_aware_score": 0.04781315231624918,
+      "median_within_subject_auc": 0.5334692066213744,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.autocorr_peak_strength": {
+      "subject_aware_score": 0.1825338200393436,
+      "median_within_subject_auc": 0.3935219383103829,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.cycle_rate_bpm": {
+      "subject_aware_score": 0.12787605459307488,
+      "median_within_subject_auc": 0.581375671104684,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.003923491907797949
+    },
+    "am_r.cycle_interval_cv": {
+      "subject_aware_score": 0.04905470839303203,
+      "median_within_subject_auc": 0.542922869843903,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.003923491907797949
+    },
+    "am_r.envelope_cv": {
+      "subject_aware_score": 0.24295178767225753,
+      "median_within_subject_auc": 0.6546056830641639,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.envelope_modulation_depth": {
+      "subject_aware_score": 0.24081590659223337,
+      "median_within_subject_auc": 0.6532464860132394,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.0021110996714038977,
+      "median_within_subject_auc": 0.5018472122124784,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.envelope_slope_per_second": {
+      "subject_aware_score": 0.005376879855664056,
+      "median_within_subject_auc": 0.504704769873706,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_r.log_baseline_median_ratio": {
+      "subject_aware_score": 0.18920303078031023,
+      "median_within_subject_auc": 0.36755787845378285,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_r.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.21944882378862973,
+      "median_within_subject_auc": 0.3463858233479592,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_r.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.2209600221365713,
+      "median_within_subject_auc": 0.3453279845044001,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_r.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.008063267112865235,
+      "median_within_subject_auc": 0.49372857002332704,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_r.below_baseline_075_fraction": {
+      "subject_aware_score": 0.1080300301256403,
+      "median_within_subject_auc": 0.5756210210879482,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_r.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.18641897913617012,
+      "median_within_subject_auc": 0.6087444044960992,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_r.below_baseline_050_fraction": {
+      "subject_aware_score": 0.2097237263922929,
+      "median_within_subject_auc": 0.6334605531587318,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_r.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.22507000771723748,
+      "median_within_subject_auc": 0.643226368547333,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_q.resp_rms": {
+      "subject_aware_score": 0.08110442298565232,
+      "median_within_subject_auc": 0.5567730960899566,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.resp_peak_to_peak": {
+      "subject_aware_score": 0.0757843969430348,
+      "median_within_subject_auc": 0.5530490778601244,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.10630696524146711,
+      "median_within_subject_auc": 0.5676498869718427,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.dominant_rate_bpm": {
+      "subject_aware_score": 0.07843670346550535,
+      "median_within_subject_auc": 0.5549056924258537,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.spectral_centroid_bpm": {
+      "subject_aware_score": 0.08332453119848382,
+      "median_within_subject_auc": 0.5530247016717624,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.log_respiratory_band_power": {
+      "subject_aware_score": 0.08474717437918276,
+      "median_within_subject_auc": 0.5659144689615866,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.spectral_entropy": {
+      "subject_aware_score": 0.10019575040611715,
+      "median_within_subject_auc": 0.5539515579109862,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.spectral_peak_fraction": {
+      "subject_aware_score": 0.06887150658041044,
+      "median_within_subject_auc": 0.4598249544947606,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.0423754908043128,
+      "median_within_subject_auc": 0.47033715643698104,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.autocorr_rate_bpm": {
+      "subject_aware_score": 0.04433166711680547,
+      "median_within_subject_auc": 0.5282110608925126,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.autocorr_peak_strength": {
+      "subject_aware_score": 0.06758812524862652,
+      "median_within_subject_auc": 0.4636063940968934,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.cycle_rate_bpm": {
+      "subject_aware_score": 0.08990146334616383,
+      "median_within_subject_auc": 0.5629310243423147,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.003923491907797949
+    },
+    "am_q.cycle_interval_cv": {
+      "subject_aware_score": 0.020403940652432086,
+      "median_within_subject_auc": 0.4821465519291219,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.003923491907797949
+    },
+    "am_q.envelope_cv": {
+      "subject_aware_score": 0.1362565438443341,
+      "median_within_subject_auc": 0.5867087097191217,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.envelope_modulation_depth": {
+      "subject_aware_score": 0.13802851713877576,
+      "median_within_subject_auc": 0.5878363290883118,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.026120761097481723,
+      "median_within_subject_auc": 0.47968385247973644,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.envelope_slope_per_second": {
+      "subject_aware_score": 0.02163118598425319,
+      "median_within_subject_auc": 0.48107271226377846,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "am_q.log_baseline_median_ratio": {
+      "subject_aware_score": 0.019322492665589275,
+      "median_within_subject_auc": 0.4806775073344107,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_q.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.05176925608953263,
+      "median_within_subject_auc": 0.4597350230414746,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_q.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.06536372613561559,
+      "median_within_subject_auc": 0.44916154633896566,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_q.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.01569756790237837,
+      "median_within_subject_auc": 0.5109882975316649,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_q.below_baseline_075_fraction": {
+      "subject_aware_score": 0.0062426663220520595,
+      "median_within_subject_auc": 0.5062426663220521,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_q.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.013644287763914622,
+      "median_within_subject_auc": 0.5119387517934253,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_q.below_baseline_050_fraction": {
+      "subject_aware_score": 0.023050298671883795,
+      "median_within_subject_auc": 0.5230502986718838,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "am_q.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.06156188281764313,
+      "median_within_subject_auc": 0.5478814644137224,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_angle.resp_rms": {
+      "subject_aware_score": 0.08642469407883999,
+      "median_within_subject_auc": 0.560497285855188,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.resp_peak_to_peak": {
+      "subject_aware_score": 0.1917602437521598,
+      "median_within_subject_auc": 0.6220292460241017,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.13148200549922448,
+      "median_within_subject_auc": 0.5920374038494571,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.dominant_rate_bpm": {
+      "subject_aware_score": 0.08663951896299411,
+      "median_within_subject_auc": 0.5673862925267732,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.spectral_centroid_bpm": {
+      "subject_aware_score": 0.05968508285197646,
+      "median_within_subject_auc": 0.5464217311070928,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.log_respiratory_band_power": {
+      "subject_aware_score": 0.04225430406557017,
+      "median_within_subject_auc": 0.5295780128458991,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.spectral_entropy": {
+      "subject_aware_score": 0.1339871588233012,
+      "median_within_subject_auc": 0.5721469316740853,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.spectral_peak_fraction": {
+      "subject_aware_score": 0.1780768947505581,
+      "median_within_subject_auc": 0.41096155262472095,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.014643871074202175,
+      "median_within_subject_auc": 0.4853561289257978,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.autocorr_rate_bpm": {
+      "subject_aware_score": 0.06522108995871706,
+      "median_within_subject_auc": 0.5456547629711019,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.autocorr_peak_strength": {
+      "subject_aware_score": 0.17714235383037857,
+      "median_within_subject_auc": 0.3966669602656125,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.cycle_rate_bpm": {
+      "subject_aware_score": 0.07921645632317313,
+      "median_within_subject_auc": 0.5693143992827765,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.004086970737289475
+    },
+    "sm_angle.cycle_interval_cv": {
+      "subject_aware_score": 0.02305609009526055,
+      "median_within_subject_auc": 0.520174078833353,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.004086970737289475
+    },
+    "sm_angle.envelope_cv": {
+      "subject_aware_score": 0.3112776421384214,
+      "median_within_subject_auc": 0.6676110380745346,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.envelope_modulation_depth": {
+      "subject_aware_score": 0.28172930896514464,
+      "median_within_subject_auc": 0.6517003971350779,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.0041169033034641955,
+      "median_within_subject_auc": 0.49639770960946883,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.envelope_slope_per_second": {
+      "subject_aware_score": 0.0030173267772909407,
+      "median_within_subject_auc": 0.49698267322270906,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_angle.log_baseline_median_ratio": {
+      "subject_aware_score": 0.17108727143865396,
+      "median_within_subject_auc": 0.40787608460995556,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_angle.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.22657361549493757,
+      "median_within_subject_auc": 0.37799882242580285,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_angle.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.2471539683165047,
+      "median_within_subject_auc": 0.36691709398342054,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_angle.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.005127342729509876,
+      "median_within_subject_auc": 0.5051273427295099,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_angle.below_baseline_075_fraction": {
+      "subject_aware_score": 0.07091336534613854,
+      "median_within_subject_auc": 0.5451266870384518,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_angle.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.11396368941950982,
+      "median_within_subject_auc": 0.5664788188280474,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_angle.below_baseline_050_fraction": {
+      "subject_aware_score": 0.16030050874646243,
+      "median_within_subject_auc": 0.5935086301021031,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_angle.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.2022421150824264,
+      "median_within_subject_auc": 0.6088996004289988,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_qr.resp_rms": {
+      "subject_aware_score": 0.061741317490167764,
+      "median_within_subject_auc": 0.5480210247145749,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.resp_peak_to_peak": {
+      "subject_aware_score": 0.16045577542758002,
+      "median_within_subject_auc": 0.6021082207266418,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.14903656890916883,
+      "median_within_subject_auc": 0.6043255982364182,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.dominant_rate_bpm": {
+      "subject_aware_score": 0.1139172405010134,
+      "median_within_subject_auc": 0.5724927894097358,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.spectral_centroid_bpm": {
+      "subject_aware_score": 0.06556584770191211,
+      "median_within_subject_auc": 0.5509956593237094,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.log_respiratory_band_power": {
+      "subject_aware_score": 0.03508709581441976,
+      "median_within_subject_auc": 0.5272899634112154,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.spectral_entropy": {
+      "subject_aware_score": 0.11340615333627922,
+      "median_within_subject_auc": 0.561064851796458,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.spectral_peak_fraction": {
+      "subject_aware_score": 0.15467263678894017,
+      "median_within_subject_auc": 0.4226636816055299,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.008239673920498347,
+      "median_within_subject_auc": 0.49176032607950165,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.autocorr_rate_bpm": {
+      "subject_aware_score": 0.0888284996419173,
+      "median_within_subject_auc": 0.5565272270448565,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.autocorr_peak_strength": {
+      "subject_aware_score": 0.14771332942880055,
+      "median_within_subject_auc": 0.4060006085453087,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.cycle_rate_bpm": {
+      "subject_aware_score": 0.12424299660973885,
+      "median_within_subject_auc": 0.5790637251152884,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.003923491907797949
+    },
+    "sm_qr.cycle_interval_cv": {
+      "subject_aware_score": 0.013348328800568687,
+      "median_within_subject_auc": 0.5133483288005687,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.003923491907797949
+    },
+    "sm_qr.envelope_cv": {
+      "subject_aware_score": 0.29264865798657597,
+      "median_within_subject_auc": 0.6575800466081563,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.envelope_modulation_depth": {
+      "subject_aware_score": 0.3010367738361542,
+      "median_within_subject_auc": 0.6620967243733138,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.013097101391811918,
+      "median_within_subject_auc": 0.4898133655841463,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.envelope_slope_per_second": {
+      "subject_aware_score": 0.024136476966072056,
+      "median_within_subject_auc": 0.48464042374886324,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_qr.log_baseline_median_ratio": {
+      "subject_aware_score": 0.1630371504749856,
+      "median_within_subject_auc": 0.4122107651288539,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_qr.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.20669976098547527,
+      "median_within_subject_auc": 0.3887001287001287,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_qr.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.2826209437130939,
+      "median_within_subject_auc": 0.35868952814345306,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_qr.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.024824024280840563,
+      "median_within_subject_auc": 0.5217210212457355,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_qr.below_baseline_075_fraction": {
+      "subject_aware_score": 0.09969784350987348,
+      "median_within_subject_auc": 0.5581570753807595,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_qr.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.20165954898289407,
+      "median_within_subject_auc": 0.600829774491447,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_qr.below_baseline_050_fraction": {
+      "subject_aware_score": 0.17846231730485348,
+      "median_within_subject_auc": 0.6041030184278312,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_qr.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.23956120417450277,
+      "median_within_subject_auc": 0.6289944945555015,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_rs.resp_rms": {
+      "subject_aware_score": 0.19650582525073607,
+      "median_within_subject_auc": 0.6250491615231957,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.resp_peak_to_peak": {
+      "subject_aware_score": 0.25366618368757016,
+      "median_within_subject_auc": 0.6614239350739083,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.13385798007308206,
+      "median_within_subject_auc": 0.5851823509555977,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.dominant_rate_bpm": {
+      "subject_aware_score": 0.0763222688857877,
+      "median_within_subject_auc": 0.5534255882200514,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.spectral_centroid_bpm": {
+      "subject_aware_score": 0.06917881113415707,
+      "median_within_subject_auc": 0.5440228798126454,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.log_respiratory_band_power": {
+      "subject_aware_score": 0.14551446476864846,
+      "median_within_subject_auc": 0.5926001139436854,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.spectral_entropy": {
+      "subject_aware_score": 0.1552766526630599,
+      "median_within_subject_auc": 0.5988124153310381,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.spectral_peak_fraction": {
+      "subject_aware_score": 0.14918327805645523,
+      "median_within_subject_auc": 0.41297642113373445,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.006671658013701842,
+      "median_within_subject_auc": 0.5066716580137018,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.autocorr_rate_bpm": {
+      "subject_aware_score": 0.04212402556311016,
+      "median_within_subject_auc": 0.5327631309935301,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.autocorr_peak_strength": {
+      "subject_aware_score": 0.19403886840814957,
+      "median_within_subject_auc": 0.39551753239561177,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.cycle_rate_bpm": {
+      "subject_aware_score": 0.08693941415411807,
+      "median_within_subject_auc": 0.5676195443420918,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.cycle_interval_cv": {
+      "subject_aware_score": 0.04173911108959873,
+      "median_within_subject_auc": 0.5265612525115628,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.envelope_cv": {
+      "subject_aware_score": 0.29904854558803073,
+      "median_within_subject_auc": 0.6610261399320165,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.envelope_modulation_depth": {
+      "subject_aware_score": 0.24636322305054836,
+      "median_within_subject_auc": 0.6437118801128199,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.0007060675132963823,
+      "median_within_subject_auc": 0.4992939324867036,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.envelope_slope_per_second": {
+      "subject_aware_score": 0.004709832972589811,
+      "median_within_subject_auc": 0.4952901670274102,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "sm_rs.log_baseline_median_ratio": {
+      "subject_aware_score": 0.16719520132174862,
+      "median_within_subject_auc": 0.40246946589564664,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_rs.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.21639784946236568,
+      "median_within_subject_auc": 0.37376792114695334,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_rs.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.24490328313768822,
+      "median_within_subject_auc": 0.3571397515030152,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_rs.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.0009994845075490533,
+      "median_within_subject_auc": 0.500999484507549,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_rs.below_baseline_075_fraction": {
+      "subject_aware_score": 0.08638498997529198,
+      "median_within_subject_auc": 0.5549722663479131,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_rs.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.15313270864429107,
+      "median_within_subject_auc": 0.5765663543221455,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_rs.below_baseline_050_fraction": {
+      "subject_aware_score": 0.18522762176173707,
+      "median_within_subject_auc": 0.60804944602768,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "sm_rs.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.2573309533725887,
+      "median_within_subject_auc": 0.6385628210467785,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "fm_qs.resp_rms": {
+      "subject_aware_score": 0.012108139245236016,
+      "median_within_subject_auc": 0.487891860754764,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.resp_peak_to_peak": {
+      "subject_aware_score": 0.002126691248087953,
+      "median_within_subject_auc": 0.49787330875191205,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.01652978788061616,
+      "median_within_subject_auc": 0.48553643560446086,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.dominant_rate_bpm": {
+      "subject_aware_score": 0.00893248086796472,
+      "median_within_subject_auc": 0.4910675191320353,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.spectral_centroid_bpm": {
+      "subject_aware_score": 0.03213959862739044,
+      "median_within_subject_auc": 0.47500253440091855,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.log_respiratory_band_power": {
+      "subject_aware_score": 0.008097194882730696,
+      "median_within_subject_auc": 0.4919028051172693,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.spectral_entropy": {
+      "subject_aware_score": 0.009840824424423023,
+      "median_within_subject_auc": 0.49138927862862986,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.spectral_peak_fraction": {
+      "subject_aware_score": 0.0009422526888218652,
+      "median_within_subject_auc": 0.5009422526888219,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.005771825710964129,
+      "median_within_subject_auc": 0.5057718257109641,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.autocorr_rate_bpm": {
+      "subject_aware_score": 0.006100843712334214,
+      "median_within_subject_auc": 0.4938991562876658,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.autocorr_peak_strength": {
+      "subject_aware_score": 0.005328343165754288,
+      "median_within_subject_auc": 0.504662300270035,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.cycle_rate_bpm": {
+      "subject_aware_score": 0.034054670072432645,
+      "median_within_subject_auc": 0.47020216368662143,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.006212195520680086
+    },
+    "fm_qs.cycle_interval_cv": {
+      "subject_aware_score": 0.0024065112337714467,
+      "median_within_subject_auc": 0.5024065112337714,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.006212195520680086
+    },
+    "fm_qs.envelope_cv": {
+      "subject_aware_score": 0.005850392886683209,
+      "median_within_subject_auc": 0.4941496071133168,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.envelope_modulation_depth": {
+      "subject_aware_score": 0.011633384536610336,
+      "median_within_subject_auc": 0.48982078853046596,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.010582012472096811,
+      "median_within_subject_auc": 0.4907407390869153,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.envelope_slope_per_second": {
+      "subject_aware_score": 0.008569819631486208,
+      "median_within_subject_auc": 0.4933345847310663,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "fm_qs.log_baseline_median_ratio": {
+      "subject_aware_score": 0.011732291032582585,
+      "median_within_subject_auc": 0.5102657546535098,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "fm_qs.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.0154527166314699,
+      "median_within_subject_auc": 0.5135211270525362,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "fm_qs.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.01580713164386638,
+      "median_within_subject_auc": 0.5158071316438664,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "fm_qs.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.012730679513628574,
+      "median_within_subject_auc": 0.511139344574425,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "fm_qs.below_baseline_075_fraction": {
+      "subject_aware_score": 0.020844283461185102,
+      "median_within_subject_auc": 0.48378777953018937,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "fm_qs.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.036316281241977756,
+      "median_within_subject_auc": 0.47175400347846175,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "fm_qs.below_baseline_050_fraction": {
+      "subject_aware_score": 0.03262805140233401,
+      "median_within_subject_auc": 0.47145045502295774,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "fm_qs.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.024504461448506248,
+      "median_within_subject_auc": 0.47855859623255703,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "fm_rr.resp_rms": {
+      "subject_aware_score": 0.43694480200833485,
+      "median_within_subject_auc": 0.7184724010041674,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.resp_peak_to_peak": {
+      "subject_aware_score": 0.4774985750812122,
+      "median_within_subject_auc": 0.7387492875406061,
+      "direction_consistency": 1.0,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.02838775518322239,
+      "median_within_subject_auc": 0.5220793651425063,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.dominant_rate_bpm": {
+      "subject_aware_score": 0.002551321553002639,
+      "median_within_subject_auc": 0.5025513215530026,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.spectral_centroid_bpm": {
+      "subject_aware_score": 0.029728408924120635,
+      "median_within_subject_auc": 0.5189180784062586,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.log_respiratory_band_power": {
+      "subject_aware_score": 0.36102947532604207,
+      "median_within_subject_auc": 0.6944004867140227,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.spectral_entropy": {
+      "subject_aware_score": 0.1447138087495888,
+      "median_within_subject_auc": 0.5779228200959324,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.spectral_peak_fraction": {
+      "subject_aware_score": 0.10945121557686717,
+      "median_within_subject_auc": 0.4410647300739946,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.0021502165148573615,
+      "median_within_subject_auc": 0.49784978348514264,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.autocorr_rate_bpm": {
+      "subject_aware_score": 0.0038365553053663548,
+      "median_within_subject_auc": 0.5029839874597294,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.autocorr_peak_strength": {
+      "subject_aware_score": 0.1403792699875649,
+      "median_within_subject_auc": 0.42441116231438814,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.cycle_rate_bpm": {
+      "subject_aware_score": 0.03453501794464702,
+      "median_within_subject_auc": 0.5302181407015661,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005885237861696924
+    },
+    "fm_rr.cycle_interval_cv": {
+      "subject_aware_score": 0.0613285490937056,
+      "median_within_subject_auc": 0.5429299843655939,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005885237861696924
+    },
+    "fm_rr.envelope_cv": {
+      "subject_aware_score": 0.17739012941918583,
+      "median_within_subject_auc": 0.6034775754945251,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.envelope_modulation_depth": {
+      "subject_aware_score": 0.18183467698833147,
+      "median_within_subject_auc": 0.5979109799167939,
+      "direction_consistency": 0.9285714285714286,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.012681370049107648,
+      "median_within_subject_auc": 0.4889038012070308,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.envelope_slope_per_second": {
+      "subject_aware_score": 0.009278261054248178,
+      "median_within_subject_auc": 0.49188152157753284,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.005067843714238962
+    },
+    "fm_rr.log_baseline_median_ratio": {
+      "subject_aware_score": 0.06361742885399847,
+      "median_within_subject_auc": 0.4595161816383646,
+      "direction_consistency": 0.7857142857142857,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.011933954552885373
+    },
+    "fm_rr.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.14796848352885503,
+      "median_within_subject_auc": 0.41368505127483457,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.011933954552885373
+    },
+    "fm_rr.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.10508084807055815,
+      "median_within_subject_auc": 0.43870283862550774,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.011933954552885373
+    },
+    "fm_rr.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.0073191853556657804,
+      "median_within_subject_auc": 0.5073191853556658,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.011933954552885373
+    },
+    "fm_rr.below_baseline_075_fraction": {
+      "subject_aware_score": 0.027925095476787183,
+      "median_within_subject_auc": 0.519547566833751,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.011933954552885373
+    },
+    "fm_rr.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.027408364661654118,
+      "median_within_subject_auc": 0.5213176169590643,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.011933954552885373
+    },
+    "fm_rr.below_baseline_050_fraction": {
+      "subject_aware_score": 0.05531993875371324,
+      "median_within_subject_auc": 0.5430266190306658,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.011933954552885373
+    },
+    "fm_rr.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.053857708300273366,
+      "median_within_subject_auc": 0.5377003958101914,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.011933954552885373
+    },
+    "bm_qrs.resp_rms": {
+      "subject_aware_score": 0.003748537848533129,
+      "median_within_subject_auc": 0.5037485378485331,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.resp_peak_to_peak": {
+      "subject_aware_score": 0.015063911842738698,
+      "median_within_subject_auc": 0.5150639118427387,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.resp_zero_crossings_per_second": {
+      "subject_aware_score": 0.06860904146851096,
+      "median_within_subject_auc": 0.5480263290279577,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.dominant_rate_bpm": {
+      "subject_aware_score": 0.07153873997624001,
+      "median_within_subject_auc": 0.5556412422037422,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.spectral_centroid_bpm": {
+      "subject_aware_score": 0.0852251006825387,
+      "median_within_subject_auc": 0.5596575704777771,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.log_respiratory_band_power": {
+      "subject_aware_score": 0.0018611190727116922,
+      "median_within_subject_auc": 0.5018611190727117,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.spectral_entropy": {
+      "subject_aware_score": 0.0006026516673363069,
+      "median_within_subject_auc": 0.4993973483326637,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.spectral_peak_fraction": {
+      "subject_aware_score": 0.01816550010363589,
+      "median_within_subject_auc": 0.4858712776971721,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.log_low_high_band_power_ratio": {
+      "subject_aware_score": 0.0413296732279744,
+      "median_within_subject_auc": 0.46785469860046436,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.autocorr_rate_bpm": {
+      "subject_aware_score": 0.09950377857743112,
+      "median_within_subject_auc": 0.5580438708368348,
+      "direction_consistency": 0.8571428571428571,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.autocorr_peak_strength": {
+      "subject_aware_score": 0.003105580891169357,
+      "median_within_subject_auc": 0.49689441910883064,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.cycle_rate_bpm": {
+      "subject_aware_score": 0.0239887862652326,
+      "median_within_subject_auc": 0.5186579448729587,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.cycle_interval_cv": {
+      "subject_aware_score": 0.0008937193295283641,
+      "median_within_subject_auc": 0.49910628067047164,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.envelope_cv": {
+      "subject_aware_score": 0.01428484755803743,
+      "median_within_subject_auc": 0.5124992416132828,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.envelope_modulation_depth": {
+      "subject_aware_score": 0.03288587125622062,
+      "median_within_subject_auc": 0.5230201098793544,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.envelope_first_last_log_ratio": {
+      "subject_aware_score": 0.01006395984331021,
+      "median_within_subject_auc": 0.4921724756774254,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.envelope_slope_per_second": {
+      "subject_aware_score": 0.00671323489401608,
+      "median_within_subject_auc": 0.49477859508243194,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0053948013732221245
+    },
+    "bm_qrs.log_baseline_median_ratio": {
+      "subject_aware_score": 0.0153436355644264,
+      "median_within_subject_auc": 0.5134256811188731,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.012751348700343335
+    },
+    "bm_qrs.log_baseline_q10_ratio": {
+      "subject_aware_score": 0.004400525728198712,
+      "median_within_subject_auc": 0.5044005257281987,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.012751348700343335
+    },
+    "bm_qrs.log_baseline_min10_mean_ratio": {
+      "subject_aware_score": 0.036086011732628265,
+      "median_within_subject_auc": 0.47193310198573357,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.012751348700343335
+    },
+    "bm_qrs.minimum_10s_position_fraction": {
+      "subject_aware_score": 0.022108291632312364,
+      "median_within_subject_auc": 0.48280466206375705,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.012751348700343335
+    },
+    "bm_qrs.below_baseline_075_fraction": {
+      "subject_aware_score": 0.016565389741208643,
+      "median_within_subject_auc": 0.48550528397644244,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.012751348700343335
+    },
+    "bm_qrs.below_baseline_075_longest_seconds": {
+      "subject_aware_score": 0.004771781997217617,
+      "median_within_subject_auc": 0.5047717819972176,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.012751348700343335
+    },
+    "bm_qrs.below_baseline_050_fraction": {
+      "subject_aware_score": 0.010011700919653421,
+      "median_within_subject_auc": 0.49123976169530326,
+      "direction_consistency": 0.5714285714285714,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.012751348700343335
+    },
+    "bm_qrs.below_baseline_050_longest_seconds": {
+      "subject_aware_score": 0.036022114885907425,
+      "median_within_subject_auc": 0.5280172004668169,
+      "direction_consistency": 0.6428571428571429,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.012751348700343335
+    },
+    "cross.corr_am_qr_am_r": {
+      "subject_aware_score": 0.00934874988410539,
+      "median_within_subject_auc": 0.5093487498841054,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "cross.corr_am_qr_sm_angle": {
+      "subject_aware_score": 0.08717179766798074,
+      "median_within_subject_auc": 0.5610202583675865,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "cross.corr_am_r_sm_angle": {
+      "subject_aware_score": 0.11838759734591983,
+      "median_within_subject_auc": 0.5828713181421439,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.0037600130783063124
+    },
+    "cross.attenuation_difference_am_r_minus_sm_angle": {
+      "subject_aware_score": 0.038541466715461076,
+      "median_within_subject_auc": 0.5269790267008228,
+      "direction_consistency": 0.7142857142857143,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    },
+    "cross.attenuation_difference_am_qr_minus_sm_angle": {
+      "subject_aware_score": 0.008758490306074562,
+      "median_within_subject_auc": 0.5087584903060746,
+      "direction_consistency": 0.5,
+      "eligible_subject_count": 14,
+      "missing_fraction": 0.009972208598986398
+    }
+  },
+  "criteria": {
+    "relevance": "2 * abs(median within-subject AUC - 0.5) * direction consistency",
+    "correlation": "median absolute within-subject Spearman",
+    "correlation_threshold": 0.95,
+    "maximum_missing_fraction": 0.2,
+    "ranking": "all nonredundant representatives first, then correlated members"
+  },
+  "fold": 0,
+  "selection_rows": "train_indices only",
+  "train_n": 6117
+}

@@ -1,0 +1,34 @@
+# 回到两组 ASPP-SE-残差块，加原模型末端 ASPP（共三个 ASPP）。
+# 本阶段只用此配置读取 fold 0 数据并生成三种特征聚类，不启动训练。
+# 若将来训练，验证准确率仍是预先约定的 checkpoint 指标。
+name: daeac_aspp2_feature_clustering_e3_2class
+data_path: ../dataset/mitbih_master/mitbih_master_30s.npz
+split_dir: protocols/e3_full_epoch5fold_20260913
+split_unit: epoch
+output_root: runs
+
+signal_key: ecg_filtered_rri_r_amp_256
+normalization: per_epoch_zscore
+expected_input_length: 7500
+model: daeac
+model_params:
+  base_channels: 16
+  dilations: [1, 6, 12, 18]
+  activation: relu
+  final_activation: relu
+  use_rhythm_amplitude: true
+  use_third_aspp: false
+labels: [Normal, Apnea]
+
+batch_size: 8
+learning_rate: 0.001
+weight_decay: 0.0001
+max_epochs: 120
+early_stopping_patience: 50
+checkpoint_metric: val_accuracy
+class_weight: balanced
+
+seed: 17
+fold: 0
+num_workers: 0
+device: auto

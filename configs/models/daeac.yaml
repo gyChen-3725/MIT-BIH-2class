@@ -1,0 +1,32 @@
+# DAEAC MACNN-SE 的二分类适配配置；与链路验证用 SmokeCNN 分开保存结果。
+name: daeac_macnn_se_raw_subjectwise_5fold
+data_path: ../dataset/mitbih_master/mitbih_master_30s.npz
+split_dir: ../dataset/mitbih_master/splits
+split_unit: subject
+output_root: runs
+
+# 保持本项目的单导联、30 秒 ECG 和二分类标签约定。
+signal_key: ecg_raw
+normalization: per_epoch_zscore
+expected_input_length: 7500
+model: daeac
+model_params:
+  # 参考三分类仓库的宽度设置；当前二分类模型实测为 1,414,530 参数。
+  base_channels: 16
+  dilations: [1, 6, 12, 18]
+  activation: relu
+  final_activation: relu
+labels: [Normal, Apnea]
+
+# 30 秒波形远长于上游心拍片段，先使用较小批量；按设备显存再调整。
+batch_size: 8
+learning_rate: 0.001
+weight_decay: 0.0001
+max_epochs: 120
+early_stopping_patience: 20
+class_weight: balanced
+
+seed: 17
+fold: 0
+num_workers: 0
+device: auto

@@ -1,0 +1,14 @@
+{
+  "dataset_indices": [1406, 1407, 1413, 1414, 1420, 5092],
+  "selection": "Six identical members of the isolated RRI and RRI+amplitude clusters in the original fold-0 train-only K-means run",
+  "source_assignments_sha256": "b5d0ed4c241a4cad7924cb182c9045a8eb85cc37ae97652624042ad96d40144e",
+  "rri_invalid_definition": "Fraction of 256 raw RRI values that are non-finite, below 0, or above 3 seconds",
+  "rri_invalid_fraction": {
+    "1406": 0.609375,
+    "1407": 0.8125,
+    "1413": 0.44921875,
+    "1414": 0.94921875,
+    "1420": 0.9921875,
+    "5092": 0.64453125
+  }
+}

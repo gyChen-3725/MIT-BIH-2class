@@ -1,0 +1,53 @@
+{
+  "feature_file": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\features\\expanded347\\features_30s_expanded.npz",
+  "feature_sha256": "fb4ddf3801aae870c1e47ce985c1e12efc682b08c119fa973883d6dbac829554",
+  "master_file": "E:\\envs\\Projects\\Sleep-apnea-detection\\dataset\\mitbih_master\\mitbih_master_30s.npz",
+  "split_dir": "E:\\envs\\Projects\\Sleep-apnea-detection\\MIT-BIH-2class\\protocols\\e3_full_epoch5fold_20260913",
+  "feature_groups": {
+    "hrv_all": 32,
+    "ecg": 34,
+    "qrs": 26,
+    "ecg_qrs": 60,
+    "non_edr_with_hrv": 92,
+    "edr3": 80,
+    "fusion3": 88,
+    "edr_all": 255,
+    "all": 263,
+    "fusion3_expanded": 172,
+    "expanded_all": 347
+  },
+  "top_groups_per_fold": 3,
+  "selectors": [
+    "anova",
+    "mutual_info",
+    "l1",
+    "random_forest",
+    "mrmr"
+  ],
+  "dimensions": [
+    16,
+    32,
+    48,
+    64,
+    96,
+    128,
+    192,
+    263
+  ],
+  "models": [
+    "logistic",
+    "random_forest",
+    "hist_gb"
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_metric": "accuracy",
+  "seed": 42,
+  "sklearn_version": "1.9.0",
+  "test_policy": "one test evaluation per fold after validation-based combination choice"
+}

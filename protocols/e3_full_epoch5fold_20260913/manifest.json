@@ -1,0 +1,11 @@
+{
+  "protocol": "E3 full 10197 epoch-level stratified five-fold",
+  "split_unit": "epoch",
+  "seed": 20260913,
+  "rows": 10197,
+  "stratification": "Normal / Hypopnea / Apnea from seven raw labels",
+  "roles": "fold i test, fold (i+1)%5 validation, other folds train",
+  "subject_independent": false,
+  "master_sha256": "563147fb07fd87074d08dc6a80f72f9a4a3f87c74480128db63ac05be38faf02",
+  "reference_splits_sha256": "95afe5aaeb3c9618b0cf4344e4757de1cea2ae8896505b426ac878f0a39ec8c3"
+}

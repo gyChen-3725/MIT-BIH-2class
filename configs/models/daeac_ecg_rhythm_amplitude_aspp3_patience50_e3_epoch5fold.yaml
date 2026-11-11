@@ -1,0 +1,33 @@
+# 延长新增 ASPP3 模型的观察时间：验证 macro F1 连续 50 轮未刷新才早停。
+# 仅改变实验名和早停耐心值；保留原实验配置与已完成的 fold 0 结果。
+# 现有 best.pt 未保存最后一轮模型与优化器状态，因此本配置会从头训练。
+name: daeac_filtered_rhythm_amplitude_aspp3_patience50_e3_epoch5fold_2class
+data_path: ../dataset/mitbih_master/mitbih_master_30s.npz
+split_dir: protocols/e3_full_epoch5fold_20260913
+split_unit: epoch
+output_root: runs
+
+signal_key: ecg_filtered_rri_r_amp_256
+normalization: per_epoch_zscore
+expected_input_length: 7500
+model: daeac
+model_params:
+  base_channels: 16
+  dilations: [1, 6, 12, 18]
+  activation: relu
+  final_activation: relu
+  use_rhythm_amplitude: true
+  use_third_aspp: true
+labels: [Normal, Apnea]
+
+batch_size: 8
+learning_rate: 0.001
+weight_decay: 0.0001
+max_epochs: 120
+early_stopping_patience: 50
+class_weight: balanced
+
+seed: 17
+fold: 0
+num_workers: 0
+device: auto

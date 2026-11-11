@@ -1,0 +1,8 @@
+{
+  "method": "train-only quality filter + univariate AUC ranking + Spearman pruning",
+  "folds": 5,
+  "max_features": 64,
+  "correlation_threshold": 0.9,
+  "maximum_missing_fraction": 0.2,
+  "test_or_validation_labels_used": false
+}
